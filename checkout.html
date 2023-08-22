@@ -1,0 +1,4122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Check Out Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link href='https://fonts.googleapis.com/css?family=Public Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Slick-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="./js/checkout.js" defer></script>
+
+
+    <script>
+        $(".show-box-checked").click(function () {
+            $(".future-box").addClass("show");
+        });
+        $(".hide-check-box").click(function () {
+            $(".future-box").removeClass("show");
+        }); </script>
+
+    <style>
+        .theme-color-1 {
+            --theme-color: #d99f46;
+            --theme-color-rgb: 217, 159, 70
+        }
+
+        .theme-color-2 {
+            --theme-color: #0baf9a;
+            --theme-color-rgb: 11, 175, 154
+        }
+
+        .theme-color-3 {
+            --theme-color: #239698;
+            --theme-color-rgb: 35, 150, 152
+        }
+
+        .theme-color-4 {
+            --theme-color: #6262a6;
+            --theme-color-rgb: 35, 150, 152
+        }
+
+        .theme-color-5 {
+            --theme-color: #417394;
+            --theme-color-rgb: 65, 115, 148
+        }
+
+        :root {
+            --theme-color: #0da487;
+            --theme-color-rgb: 13, 164, 135;
+            --theme-color1: #0e947a;
+            --theme-color1-rgb: 14, 148, 122;
+            --theme-color2: linear-gradient(90.56deg, var(--theme-color1) 8.46%, var(--theme-color) 62.97%)
+        }
+
+        @-webkit-keyframes scaleUpDown {
+
+            0%,
+            100% {
+                -webkit-transform: scaleY(1) scaleX(1);
+                transform: scaleY(1) scaleX(1)
+            }
+
+            50%,
+            90% {
+                -webkit-transform: scaleY(1.1);
+                transform: scaleY(1.1)
+            }
+
+            75% {
+                -webkit-transform: scaleY(0.95);
+                transform: scaleY(0.95)
+            }
+
+            80% {
+                -webkit-transform: scaleX(0.95);
+                transform: scaleX(0.95)
+            }
+        }
+
+        @keyframes scaleUpDown {
+
+            0%,
+            100% {
+                -webkit-transform: scaleY(1) scaleX(1);
+                transform: scaleY(1) scaleX(1)
+            }
+
+            50%,
+            90% {
+                -webkit-transform: scaleY(1.1);
+                transform: scaleY(1.1)
+            }
+
+            75% {
+                -webkit-transform: scaleY(0.95);
+                transform: scaleY(0.95)
+            }
+
+            80% {
+                -webkit-transform: scaleX(0.95);
+                transform: scaleX(0.95)
+            }
+        }
+
+        @-webkit-keyframes shake {
+
+            0%,
+            100% {
+                -webkit-transform: skewX(0) scale(1);
+                transform: skewX(0) scale(1)
+            }
+
+            50% {
+                -webkit-transform: skewX(5deg) scale(0.9);
+                transform: skewX(5deg) scale(0.9)
+            }
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                -webkit-transform: skewX(0) scale(1);
+                transform: skewX(0) scale(1)
+            }
+
+            50% {
+                -webkit-transform: skewX(5deg) scale(0.9);
+                transform: skewX(5deg) scale(0.9)
+            }
+        }
+
+        @-webkit-keyframes particleUp {
+            0% {
+                opacity: 0
+            }
+
+            20% {
+                opacity: 1
+            }
+
+            80% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 0;
+                top: -100%;
+                -webkit-transform: scale(0.5);
+                transform: scale(0.5)
+            }
+        }
+
+        @keyframes particleUp {
+            0% {
+                opacity: 0
+            }
+
+            20% {
+                opacity: 1
+            }
+
+            80% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 0;
+                top: -100%;
+                -webkit-transform: scale(0.5);
+                transform: scale(0.5)
+            }
+        }
+
+        @-webkit-keyframes shape {
+            0% {
+                background-position: 100% 0
+            }
+
+            50% {
+                background-position: 50% 50%
+            }
+
+            100% {
+                background-position: 0 100%
+            }
+        }
+
+        @keyframes shape {
+            0% {
+                background-position: 100% 0
+            }
+
+            50% {
+                background-position: 50% 50%
+            }
+
+            100% {
+                background-position: 0 100%
+            }
+        }
+
+        @-webkit-keyframes rounded {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0)
+            }
+
+            50% {
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg)
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg)
+            }
+        }
+
+        @keyframes rounded {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0)
+            }
+
+            50% {
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg)
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg)
+            }
+        }
+
+        @-webkit-keyframes move {
+            0% {
+                -webkit-transform: scale(1) rotate(0deg) translate3d(0, 0, 1px);
+                transform: scale(1) rotate(0deg) translate3d(0, 0, 1px)
+            }
+
+            30% {
+                opacity: 1
+            }
+
+            100% {
+                z-index: 10;
+                -webkit-transform: scale(0) rotate(360deg) translate3d(0, 0, 1px);
+                transform: scale(0) rotate(360deg) translate3d(0, 0, 1px)
+            }
+        }
+
+        @keyframes move {
+            0% {
+                -webkit-transform: scale(1) rotate(0deg) translate3d(0, 0, 1px);
+                transform: scale(1) rotate(0deg) translate3d(0, 0, 1px)
+            }
+
+            30% {
+                opacity: 1
+            }
+
+            100% {
+                z-index: 10;
+                -webkit-transform: scale(0) rotate(360deg) translate3d(0, 0, 1px);
+                transform: scale(0) rotate(360deg) translate3d(0, 0, 1px)
+            }
+        }
+
+        @-webkit-keyframes mover {
+            0% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0)
+            }
+
+            100% {
+                -webkit-transform: translateY(-10px);
+                transform: translateY(-10px)
+            }
+        }
+
+        @keyframes mover {
+            0% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0)
+            }
+
+            100% {
+                -webkit-transform: translateY(-10px);
+                transform: translateY(-10px)
+            }
+        }
+
+        @-webkit-keyframes flash {
+            0% {
+                opacity: 0.4;
+                -webkit-transition: 0.3s ease-in-out;
+                transition: 0.3s ease-in-out
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transition: 0.3s ease-in-out;
+                transition: 0.3s ease-in-out
+            }
+        }
+
+        @keyframes flash {
+            0% {
+                opacity: 0.4;
+                -webkit-transition: 0.3s ease-in-out;
+                transition: 0.3s ease-in-out
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transition: 0.3s ease-in-out;
+                transition: 0.3s ease-in-out
+            }
+        }
+
+        @keyframes shake {
+            0% {
+                -webkit-transform: translate(3px, 0);
+                transform: translate(3px, 0)
+            }
+
+            50% {
+                -webkit-transform: translate(-3px, 0);
+                transform: translate(-3px, 0)
+            }
+
+            100% {
+                -webkit-transform: translate(0, 0);
+                transform: translate(0, 0)
+            }
+        }
+
+        @-webkit-keyframes grow {
+
+            0%,
+            100% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+                opacity: 0
+            }
+
+            50% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                opacity: 1
+            }
+        }
+
+        @keyframes grow {
+
+            0%,
+            100% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+                opacity: 0
+            }
+
+            50% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                opacity: 1
+            }
+        }
+
+
+        body {
+            font-family: "Public Sans", sans-serif;
+            position: relative;
+            font-size: 14px;
+            color: #222;
+            margin: 0;
+            background-color: #fff;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            padding-right: 0 !important
+        }
+
+        body ::-moz-selection {
+            color: #fff;
+            background-color: var(--theme-color)
+        }
+
+        body ::selection {
+            color: #fff;
+            background-color: var(--theme-color)
+        }
+
+        .bg-overlay {
+            width: 100vw;
+            height: 100vh;
+            background-color: #222;
+            position: fixed;
+            z-index: 9;
+            top: 0;
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: 0.5s;
+            transition: 0.5s
+        }
+
+        .bg-overlay.show {
+            visibility: visible;
+            opacity: 0.5
+        }
+
+        ul {
+            padding-left: 0;
+            margin-bottom: 0
+        }
+
+        li {
+            display: inline-block;
+            font-size: 14px
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 18px
+        }
+
+        a {
+            color: var(--theme-color);
+            -webkit-transition: 0.5s ease;
+            transition: 0.5s ease;
+            text-decoration: none
+        }
+
+        a:hover {
+            text-decoration: none;
+            -webkit-transition: 0.5s ease;
+            transition: 0.5s ease
+        }
+
+        a:focus {
+            outline: none
+        }
+
+        button:focus {
+            outline: none
+        }
+
+        .btn-close:focus {
+            -webkit-box-shadow: none;
+            box-shadow: none
+        }
+
+        :focus {
+            outline: none
+        }
+
+        .form-control {
+            background-color: #fff
+        }
+
+        .form-control:focus {
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-color: var(--theme-color)
+        }
+
+        h1 {
+            font-size: calc(40px + (70 - 40) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 600;
+            line-height: 1.1;
+            text-transform: capitalize;
+            margin: 0
+        }
+
+        h2 {
+            font-size: calc(22px + (28 - 22) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 600;
+            line-height: 1;
+            text-transform: capitalize;
+            margin: 0
+        }
+
+        h3 {
+            font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500;
+            line-height: 1.2;
+            margin: 0
+        }
+
+        h4 {
+            font-size: calc(17px + (18 - 17) * ((100vw - 320px) / (1920 - 320)));
+            line-height: 1.2;
+            margin: 0;
+            font-weight: 400
+        }
+
+        h5 {
+            font-size: calc(15px + (16 - 15) * ((100vw - 320px) / (1920 - 320)));
+            line-height: 1.2;
+            margin: 0;
+            font-weight: 400
+        }
+
+        h6 {
+            font-size: calc(13px + (14 - 13) * ((100vw - 320px) / (1920 - 320)));
+            line-height: 1.2;
+            margin: 0;
+            font-weight: 400
+        }
+
+        span {
+            display: inline-block
+        }
+
+        .theme-color {
+            color: var(--theme-color) !important
+        }
+
+        .theme-bg-color {
+            background: var(--theme-color) !important
+        }
+
+
+        .breadscrumb-section {
+            background-color: #f8f8f8;
+            position: relative;
+            overflow: hidden
+        }
+
+        .breadscrumb-section .breadscrumb-contain {
+            padding: calc(26px + (40 - 26) * ((100vw - 320px) / (1920 - 320))) 0;
+            text-align: center;
+            color: #222;
+            font-family: "Public Sans", sans-serif;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        @media (max-width: 480px) {
+            .breadscrumb-section .breadscrumb-contain {
+                display: block
+            }
+        }
+
+        .breadscrumb-section .breadscrumb-contain h2 {
+            font-weight: 700;
+            font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1920 - 320)));
+            margin-bottom: 0
+        }
+
+        @media (max-width: 480px) {
+            .breadscrumb-section .breadscrumb-contain h2 {
+                text-align: center;
+                margin-bottom: 8px
+            }
+        }
+
+        .breadscrumb-section .breadscrumb-contain .search-box-breadscrumb {
+            position: relative;
+            width: 70%;
+            margin: 0 auto
+        }
+
+        @media (max-width: 575px) {
+            .breadscrumb-section .breadscrumb-contain .search-box-breadscrumb {
+                width: 90%
+            }
+        }
+
+        @media (max-width: 360px) {
+            .breadscrumb-section .breadscrumb-contain .search-box-breadscrumb {
+                width: 100%
+            }
+        }
+
+        .breadscrumb-section .breadscrumb-contain .search-box-breadscrumb input {
+            width: 100%;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px
+        }
+
+        .breadscrumb-section .breadscrumb-contain .search-box-breadscrumb i {
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            position: absolute;
+            right: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320)));
+            color: #4a5568;
+            font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .breadscrumb-section .breadscrumb-contain nav {
+            margin-left: auto
+        }
+
+        [dir="rtl"] .breadscrumb-section .breadscrumb-contain nav {
+            margin-left: unset;
+            margin-right: auto
+        }
+
+        .breadscrumb-section .breadscrumb-contain nav .breadcrumb {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center
+        }
+
+        .breadscrumb-section .breadscrumb-contain nav .breadcrumb .breadcrumb-item {
+            font-weight: 500
+        }
+
+        .breadscrumb-section .breadscrumb-contain nav .breadcrumb .breadcrumb-item i {
+            color: #4a5568
+        }
+
+        .breadscrumb-section .breadscrumb-contain nav .breadcrumb .breadcrumb-item.active {
+            color: #000;
+            margin-top: 2px
+        }
+
+        .breadscrumb-section .breadscrumb-contain nav .breadcrumb .breadcrumb-item+.breadcrumb-item {
+            position: relative
+        }
+
+        [dir="rtl"] .breadscrumb-section .breadscrumb-contain nav .breadcrumb .breadcrumb-item+.breadcrumb-item {
+            padding-left: 0;
+            padding-right: 8px
+        }
+
+        .breadscrumb-section .breadscrumb-contain nav .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            content: "\f105";
+            color: #4a5568
+        }
+
+        .breadscrumb-section .breadscrumb-order {
+            display: block
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image {
+            width: calc(170px + (250 - 170) * ((100vw - 320px) / (1920 - 320)));
+            height: auto;
+            margin: 0 auto calc(16px + (28 - 16) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .checkmark {
+            position: relative;
+            padding: 30px;
+            -webkit-animation: checkmark 5m cubic-bezier(0.42, 0, 0.275, 1.155) both;
+            animation: checkmark 5m cubic-bezier(0.42, 0, 0.275, 1.155) both;
+            display: inline-block;
+            -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+            margin: -20px
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .checkmark__check {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 10;
+            -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+            fill: white
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .checkmark__background {
+            fill: var(--theme-color);
+            -webkit-animation: rotate 35s linear both infinite;
+            animation: rotate 35s linear both infinite
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star {
+            position: absolute;
+            -webkit-animation: grow 3s infinite;
+            animation: grow 3s infinite;
+            fill: var(--theme-color);
+            opacity: 0
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(1) {
+            width: 12px;
+            height: 12px;
+            left: 12px;
+            top: 16px
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(2) {
+            width: 18px;
+            height: 18px;
+            left: 168px;
+            top: 84px
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(3) {
+            width: 10px;
+            height: 10px;
+            left: 32px;
+            top: 162px
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(4) {
+            height: 20px;
+            width: 20px;
+            left: 82px;
+            top: -12px
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(5) {
+            width: 14px;
+            height: 14px;
+            left: 125px;
+            top: 162px
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(6) {
+            width: 10px;
+            height: 10px;
+            left: 16px;
+            top: 16px
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(1) {
+            -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(2) {
+            -webkit-animation-delay: 3s;
+            animation-delay: 3s
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(3) {
+            -webkit-animation-delay: 4.5s;
+            animation-delay: 4.5s
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(4) {
+            -webkit-animation-delay: 6s;
+            animation-delay: 6s
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(5) {
+            -webkit-animation-delay: 7.5s;
+            animation-delay: 7.5s
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .star:nth-child(6) {
+            -webkit-animation-delay: 9s;
+            animation-delay: 9s
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .checkmark {
+            position: relative;
+            padding: 30px;
+            -webkit-animation: checkmark 5m cubic-bezier(0.42, 0, 0.275, 1.155) both;
+            animation: checkmark 5m cubic-bezier(0.42, 0, 0.275, 1.155) both;
+            display: inline-block;
+            -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+            margin: -20px
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .checkmark__check {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 10;
+            -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+            fill: white
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image .checkmark__background {
+            fill: var(--theme-color);
+            -webkit-animation: rotate 35s linear both infinite;
+            animation: rotate 35s linear both infinite
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image i {
+            font-size: 50px;
+            color: #4ead4e
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image h2 {
+            margin-top: 10px;
+            margin-bottom: 15px
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image p {
+            font-size: 18px;
+            text-transform: capitalize
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-image.order-fail i {
+            color: var(--theme-color)
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-contain h3 {
+            font-size: calc(21px + (24 - 21) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 700;
+            margin-bottom: 6px
+        }
+
+        .breadscrumb-section .breadscrumb-order .order-box .order-contain h5 {
+            margin-bottom: 8px;
+            line-height: 1.4
+        }
+
+
+
+        .checkbox_animated {
+            cursor: pointer;
+            position: relative;
+            margin-right: 16px;
+            height: 100%
+        }
+
+        [dir="rtl"] .checkbox_animated {
+            margin-right: unset;
+            margin-left: 16px
+        }
+
+        .checkbox_animated:before {
+            content: "";
+            position: absolute;
+            width: 12px;
+            height: 6px;
+            -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+            transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+            transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+            transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75), -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+            -webkit-transform: rotate(-45deg) scale(0, 0);
+            transform: rotate(-45deg) scale(0, 0);
+            left: 4px;
+            top: 4px;
+            z-index: 1;
+            border: 2px solid var(--theme-color);
+            border-top-style: none;
+            border-right-style: none
+        }
+
+        [dir="rtl"] .checkbox_animated:before {
+            left: unset;
+            right: 4px
+        }
+
+        .checkbox_animated:after {
+            content: "";
+            position: absolute;
+            width: 21px;
+            height: 21px;
+            top: -2px;
+            left: 0;
+            background-color: #fff;
+            border: 2px solid #ececec;
+            cursor: pointer
+        }
+
+        [dir="rtl"] .checkbox_animated:after {
+            left: unset;
+            right: 0
+        }
+
+        .checkbox_animated:checked:before {
+            -webkit-transform: rotate(-45deg) scale(1, 1);
+            transform: rotate(-45deg) scale(1, 1)
+        }
+
+
+
+        .bank-section .bank-offer {
+            border-radius: calc(9px + (20 - 9) * ((100vw - 320px) / (1920 - 320)));
+            overflow: hidden
+        }
+
+        .bank-section .bank-offer:hover .bank-footer-1 .bank-coupon::after {
+            top: 0;
+            height: 100%
+        }
+
+        .bank-section .bank-offer:hover .bank-footer-2 .bank-coupon::after {
+            top: 0;
+            height: 100%
+        }
+
+        .bank-section .bank-offer:hover .bank-footer-3 .bank-coupon::after {
+            top: 0;
+            height: 100%
+        }
+
+        .bank-section .bank-offer .bank-header {
+            background: linear-gradient(76.68deg, #e6e6e6 -9.39%, #fafafa 78.76%, #f0f0f0 101.45%, #fff 112.78%);
+            padding: calc(21px + (35 - 21) * ((100vw - 320px) / (1920 - 320)));
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .bank-section .bank-offer .bank-header .bank-left .bank-image {
+            width: 120px;
+            height: auto;
+            margin-bottom: 12px
+        }
+
+        .bank-section .bank-offer .bank-header .bank-left .bank-name h2 {
+            color: #bb0032;
+            font-weight: 700;
+            margin-bottom: 7px;
+            font-size: calc(22px + (31 - 22) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .bank-section .bank-offer .bank-header .bank-left .bank-name h2.bank-offer-2 {
+            color: #239bf0
+        }
+
+        .bank-section .bank-offer .bank-header .bank-left .bank-name h2.bank-offer-3 {
+            color: #e73718
+        }
+
+        .bank-section .bank-offer .bank-header .bank-left .bank-name h5 {
+            font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .bank-section .bank-offer .bank-header .bank-left .bank-name h5.valid {
+            margin-top: calc(22px + (69 - 22) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .bank-section .bank-offer .bank-footer {
+            padding: calc(7px + (17 - 7) * ((100vw - 320px) / (1920 - 320))) calc(13px + (26 - 13) * ((100vw - 320px) / (1920 - 320)));
+            color: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .bank-section .bank-offer .bank-footer-1 {
+            background: linear-gradient(85.8deg, #bb0032 -4.64%, #ff584d 109.73%, #ff8c75 131.73%)
+        }
+
+        .bank-section .bank-offer .bank-footer-1 .bank-coupon {
+            background: linear-gradient(85.8deg, #ff584d -4.64%, rgba(187, 0, 50, 0.1) 131.73%)
+        }
+
+        .bank-section .bank-offer .bank-footer-1 .bank-coupon::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            border-radius: 5px;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            background: #ff584d;
+            background: linear-gradient(85.8deg, rgba(187, 0, 50, 0.1) 131.73%, #ff584d -4.64%)
+        }
+
+        .bank-section .bank-offer .bank-footer-2 {
+            background: -webkit-gradient(linear, left top, right top, color-stop(15.92%, #2395e8), color-stop(49.57%, #4eb5ff));
+            background: linear-gradient(90deg, #2395e8 15.92%, #4eb5ff 49.57%)
+        }
+
+        .bank-section .bank-offer .bank-footer-2 .bank-coupon {
+            background: -webkit-gradient(linear, left top, right top, color-stop(15.92%, #2395e8), color-stop(49.57%, #4eb5ff));
+            background: linear-gradient(90deg, #2395e8 15.92%, #4eb5ff 49.57%)
+        }
+
+        .bank-section .bank-offer .bank-footer-2 .bank-coupon::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            border-radius: 5px;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            background: #4eb5ff;
+            background: -webkit-gradient(linear, left top, right top, color-stop(15.92%, #4eb5ff), color-stop(49.57%, #2395e8));
+            background: linear-gradient(90deg, #4eb5ff 15.92%, #2395e8 49.57%)
+        }
+
+        .bank-section .bank-offer .bank-footer-3 {
+            background: linear-gradient(85.8deg, #ffb321 -4.64%, #ff584d 109.73%, #ff8c75 131.73%)
+        }
+
+        .bank-section .bank-offer .bank-footer-3 .bank-coupon {
+            background: linear-gradient(85.8deg, #ffb321 -4.64%, #ff584d 109.73%, #ff8c75 131.73%)
+        }
+
+        .bank-section .bank-offer .bank-footer-3 .bank-coupon::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            border-radius: 5px;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            background: #ffb321;
+            background: -webkit-gradient(linear, right top, left top, color-stop(-4.64%, rgba(255, 140, 117, 0)), color-stop(109.73, rgba(255, 88, 77, 0.1)), color-stop(131.73%, #ffb321));
+            background: linear-gradient(-90deg, rgba(255, 140, 117, 0) -4.64%, rgba(255, 88, 77, 0.1) 109.73, #ffb321 131.73%)
+        }
+
+        .bank-section .bank-offer .bank-footer h4 {
+            font-weight: 500;
+            font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .bank-section .bank-offer .bank-footer h4 input {
+            pointer-events: none;
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            font-weight: 600;
+            width: 60%
+        }
+
+        .bank-section .bank-offer .bank-footer .bank-coupon {
+            margin-left: auto;
+            color: #fff;
+            font-weight: 600;
+            padding: 6px 21px;
+            position: relative;
+            overflow: hidden;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            z-index: 0
+        }
+
+        [dir="rtl"] .bank-section .bank-offer .bank-footer .bank-coupon {
+            margin-left: unset;
+            margin-right: auto
+        }
+
+
+
+        .checkout-section .custom-accordion {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            gap: calc(10px + (30 - 10) * ((100vw - 320px) / (1920 - 320)));
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .checkout-section .custom-accordion .accordion-item {
+            border: none;
+            border-radius: 6px;
+            overflow: hidden;
+            display: block;
+            width: 100%
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button {
+            color: #4a5568;
+            position: relative;
+            padding: 0
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button::after {
+            content: none
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button::before {
+            content: "ï„‡";
+            position: absolute;
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 30px;
+            -webkit-transition: -webkit-transform 0.2s ease-in-out;
+            transition: -webkit-transform 0.2s ease-in-out;
+            transition: transform 0.2s ease-in-out;
+            transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out
+        }
+
+        [dir="rtl"] .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button::before {
+            right: unset;
+            left: 30px
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+            color: #222;
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            box-shadow: none
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::before {
+            top: 20%;
+            -webkit-transform: rotate(-180deg) translateY(-50%);
+            transform: rotate(-180deg) translateY(-50%)
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button .form-check {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 100%
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label {
+            font-weight: 500;
+            color: #222;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 100%;
+            font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
+            padding: 16px 20px
+        }
+
+        [dir="rtl"] .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label {
+            padding-right: 0
+        }
+
+        @media (max-width: 480px) {
+            .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label {
+                margin-top: 5px
+            }
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label .form-check-input {
+            margin-right: calc(6px + (10 - 6) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        [dir="rtl"] .checkout-section .custom-accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label .form-check-input {
+            margin-left: calc(6px + (10 - 6) * ((100vw - 320px) / (1920 - 320)));
+            margin-right: unset
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-collapse .accordion-body .cod-review a:hover {
+            color: var(--theme-color)
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-collapse .accordion-body .custom-form-check {
+            margin-bottom: calc(5px + (8 - 5) * ((100vw - 320px) / (1920 - 320)));
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        [dir="rtl"] .checkout-section .custom-accordion .accordion-item .accordion-collapse .accordion-body .custom-form-check {
+            padding-left: unset;
+            padding-right: 0
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-collapse .accordion-body .custom-form-check label {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            font-size: calc(14px + (17 - 14) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section .custom-accordion .accordion-item .accordion-collapse .accordion-body .custom-form-check input {
+            margin-right: 10px
+        }
+
+        [dir="rtl"] .checkout-section .custom-accordion .accordion-item .accordion-collapse .accordion-body .custom-form-check input {
+            margin-right: unset;
+            margin-left: 10px
+        }
+
+        .checkout-section .custom-navtab {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            gap: calc(0px + (24 - 0) * ((100vw - 320px) / (1920 - 320)));
+            overflow: auto;
+            position: sticky;
+            top: 0
+        }
+
+        @media (max-width: 991px) {
+            .checkout-section .custom-navtab {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap
+            }
+        }
+
+        .checkout-section .custom-navtab .nav-item {
+            width: 100%;
+            -ms-flex-preferred-size: auto;
+            flex-basis: auto
+        }
+
+        @media (max-width: 991px) {
+            .checkout-section .custom-navtab .nav-item {
+                display: inline-block
+            }
+
+            .checkout-section .custom-navtab .nav-item+.nav-item {
+                margin-left: 15px
+            }
+        }
+
+        .checkout-section .custom-navtab .nav-item .nav-link {
+            position: relative;
+            text-align: left;
+            border: 2px solid #ececec;
+            padding: calc(10px + (18 - 10) * ((100vw - 320px) / (1920 - 320)));
+            cursor: pointer
+        }
+
+        @media (max-width: 991px) {
+            .checkout-section .custom-navtab .nav-item .nav-link {
+                width: calc(195px + (220 - 195) * ((100vw - 320px) / (1920 - 320)))
+            }
+        }
+
+        .checkout-section .custom-navtab .nav-item .nav-link::before {
+            content: "";
+            position: absolute;
+            width: 0px;
+            height: 100%;
+            bottom: 0;
+            left: 0;
+            background-color: var(--theme-color);
+            background-color: transparent;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+            border-radius: 4px
+        }
+
+        .checkout-section .custom-navtab .nav-item .nav-link.active {
+            color: #222;
+            background-color: transparent;
+            border: 2px solid var(--theme-color)
+        }
+
+        .checkout-section .custom-navtab .nav-item .nav-link.active::before {
+            -webkit-box-shadow: 0 4px 0px var(--theme-color);
+            box-shadow: 0 4px 0px var(--theme-color);
+            width: 100%
+        }
+
+        .checkout-section .custom-navtab .nav-item .nav-link.active .nav-item-box h4,
+        .checkout-section .custom-navtab .nav-item .nav-link.active .nav-item-box i {
+            color: var(--theme-color);
+            z-index: 1;
+            -webkit-text-stroke: 1px transparent
+        }
+
+        .checkout-section .custom-navtab .nav-item .nav-link .nav-item-box {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .checkout-section .custom-navtab .nav-item .nav-link .nav-item-box span {
+            color: #4a5568;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: calc(0px + (5 - 0) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section .custom-navtab .nav-item .nav-link .nav-item-box h4 {
+            color: #222;
+            font-weight: 500;
+            font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section .custom-navtab .nav-item .nav-link .nav-item-box .lord-icon {
+            width: calc(38px + (58 - 38) * ((100vw - 320px) / (1920 - 320)));
+            height: auto;
+            margin-left: auto
+        }
+
+        [dir="rtl"] .checkout-section .custom-navtab .nav-item .nav-link .nav-item-box .lord-icon {
+            margin-left: unset;
+            margin-right: auto
+        }
+
+        .checkout-section .tab-content {
+            background-color: #f8f8f8;
+            height: 100%;
+            padding: calc(26px + (35 - 26) * ((100vw - 320px) / (1920 - 320))) calc(12px + (25 - 12) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section .tab-content .tab-pane .tab-title {
+            margin-bottom: calc(18px + (30 - 18) * ((100vw - 320px) / (1920 - 320)));
+            font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1920 - 320)));
+            color: #222
+        }
+
+        .checkout-section .delivery-address-box {
+            border-radius: 8px;
+            padding: calc(12px + (24 - 12) * ((100vw - 320px) / (1920 - 320)));
+            background-color: #fff;
+            -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.07);
+            box-shadow: 0 0 9px rgba(0, 0, 0, 0.07)
+        }
+
+        .checkout-section .delivery-address-box>div {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            position: relative
+        }
+
+        .checkout-section .delivery-address-box>div .label {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: var(--theme-color);
+            padding: 2px 8px;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 12px;
+            letter-spacing: 0.8px
+        }
+
+        [dir="rtl"] .checkout-section .delivery-address-box>div .label {
+            right: unset;
+            left: 0
+        }
+
+        .checkout-section .delivery-address-box>div .form-check .form-check-input {
+            width: calc(15px + (17 - 15) * ((100vw - 320px) / (1920 - 320)));
+            height: calc(15px + (17 - 15) * ((100vw - 320px) / (1920 - 320)));
+            margin-top: 2px
+        }
+
+        .checkout-section .delivery-address-box>div .form-check .form-check-input:checked {
+            background-color: var(--theme-color);
+            border-color: var(--theme-color)
+        }
+
+        .checkout-section .delivery-address-box>div .form-check .form-check-input:checked[type="radio"] {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e")
+        }
+
+        .checkout-section .delivery-address-box>div .form-check .form-check-input:focus {
+            -webkit-box-shadow: none;
+            box-shadow: none
+        }
+
+        .checkout-section .delivery-address-box>div .delivery-address-detail {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-left: 10px;
+            width: calc(85% + (75 - 85) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        [dir="rtl"] .checkout-section .delivery-address-box>div .delivery-address-detail {
+            margin-left: unset;
+            margin-right: 10px;
+            padding-right: 0
+        }
+
+        .checkout-section .delivery-address-box>div .delivery-address-detail li {
+            display: block;
+            width: 100%
+        }
+
+        .checkout-section .delivery-address-box>div .delivery-address-detail p,
+        .checkout-section .delivery-address-box>div .delivery-address-detail h6 {
+            line-height: 1.4;
+            margin-bottom: 0;
+            font-weight: 400;
+            font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section .delivery-address-box>div .delivery-address-detail p span,
+        .checkout-section .delivery-address-box>div .delivery-address-detail h6 span {
+            margin-right: 4px
+        }
+
+        .checkout-section .add-address {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding: 30px;
+            height: 100%;
+            text-align: center;
+            cursor: pointer;
+            background-color: #fff;
+            -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.07);
+            box-shadow: 0 0 9px rgba(0, 0, 0, 0.07);
+            border-radius: 8px
+        }
+
+        .checkout-section .delivery-option {
+            padding: calc(17px + (26 - 17) * ((100vw - 320px) / (1920 - 320)));
+            background-color: #fff;
+            border-radius: 5px
+        }
+
+        @media (max-width: 1460px) {
+            .checkout-section .delivery-option .select-option {
+                margin-top: 6px
+            }
+        }
+
+        .checkout-section .delivery-option .date-box {
+            position: relative
+        }
+
+        .checkout-section .delivery-option .date-box i {
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            position: absolute;
+            right: 17px;
+            font-size: 18px;
+            color: #4a5568
+        }
+
+        .checkout-section .delivery-option .delivery-category {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 100%
+        }
+
+        @media (max-width: 767px) {
+            .checkout-section .delivery-option .delivery-category {
+                display: block
+            }
+        }
+
+        .checkout-section .delivery-option .custom-form-check {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-bottom: 0;
+            min-height: auto
+        }
+
+        [dir="rtl"] .checkout-section .delivery-option .custom-form-check {
+            padding-left: unset;
+            padding-right: 1.5rem
+        }
+
+        .checkout-section .delivery-option .custom-form-check .form-check-label {
+            font-size: calc(15px + (19 - 15) * ((100vw - 320px) / (1920 - 320)));
+            padding-left: 12px;
+            font-weight: 500
+        }
+
+        [dir="rtl"] .checkout-section .delivery-option .custom-form-check .form-check-label {
+            padding-left: unset;
+            padding-right: 12px
+        }
+
+        .checkout-section .delivery-option .delivery-items {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 100%
+        }
+
+        @media (max-width: 575px) {
+            .checkout-section .delivery-option .delivery-items {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center
+            }
+        }
+
+        @media (max-width: 480px) {
+            .checkout-section .delivery-option .delivery-items {
+                display: block
+            }
+        }
+
+        .checkout-section .delivery-option .delivery-items h5 {
+            letter-spacing: 0.5px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .checkout-section .delivery-option .delivery-items h5.items {
+            margin-bottom: 5px
+        }
+
+        @media (max-width: 575px) {
+            .checkout-section .delivery-option .delivery-items h5.items {
+                margin-bottom: 0
+            }
+        }
+
+        @media (max-width: 480px) {
+            .checkout-section .delivery-option .delivery-items h5.items {
+                margin-bottom: 5px
+            }
+        }
+
+        .checkout-section .delivery-option .delivery-items h5.items span {
+            text-decoration: underline
+        }
+
+        @media (max-width: 575px) {
+            .checkout-section .delivery-option .delivery-items h5.charge {
+                margin-top: 8px
+            }
+        }
+
+        .checkout-section .delivery-option .delivery-items h5 i {
+            font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
+            margin-left: 7px;
+            color: rgba(0, 0, 0, 0.25)
+        }
+
+        [dir="rtl"] .checkout-section .delivery-option .delivery-items h5 i {
+            margin-left: unset;
+            margin-right: 7px
+        }
+
+        .checkout-section .delivery-option .delivery-date {
+            font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500;
+            border: 1px solid #ececec;
+            background-color: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: #4a5568;
+            width: 100%;
+            padding: calc(8px + (10 - 8) * ((100vw - 320px) / (1920 - 320))) calc(15px + (25 - 15) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section .delivery-option .delivery-date input {
+            font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500;
+            border: none;
+            background-color: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: #4a5568;
+            width: 100%
+        }
+
+        .checkout-section .delivery-option .delivery-time {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 100%
+        }
+
+        .checkout-section .delivery-option .delivery-time .dropdown-toggle {
+            font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500;
+            border: 1px solid #ececec;
+            background-color: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: #4a5568
+        }
+
+        .checkout-section .delivery-option .delivery-time .dropdown-toggle i {
+            -webkit-text-stroke: 1px #4a5568;
+            color: transparent;
+            font-size: 18px;
+            margin-right: 10px
+        }
+
+        .checkout-section .delivery-option .delivery-time .dropdown-toggle::after {
+            content: none
+        }
+
+        .checkout-section .delivery-option .delivery-time .dropdown-toggle::before {
+            content: "ï„‡";
+            position: absolute;
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 20px
+        }
+
+        .checkout-section .delivery-option .delivery-time .dropdown-menu {
+            border: 1px solid transparent;
+            -webkit-box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1)
+        }
+
+        .checkout-section .delivery-option .delivery-time .dropdown-menu li a:active {
+            color: #000;
+            text-decoration: none;
+            background-color: #ececec
+        }
+
+        .checkout-section .delivery-option .delivery-time .dropdown-menu li+li {
+            margin-top: 5px
+        }
+
+        .checkout-section .payment-button {
+            padding: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320))) calc(15px + (25 - 15) * ((100vw - 320px) / (1920 - 320)));
+            font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500
+        }
+
+        .checkout-section .payment-method .custom-form-check label {
+            font-weight: 500;
+            font-size: 17px
+        }
+
+        .checkout-section .credit-card-box .credit-detail {
+            position: relative
+        }
+
+        .checkout-section .credit-info label {
+            font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500
+        }
+
+        .checkout-section .payment-option {
+            padding: 20px;
+            -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+            border-radius: 8px;
+            position: relative
+        }
+
+        .checkout-section .payment-option .form-check .form-check-input {
+            margin-top: 4px
+        }
+
+        .checkout-section .payment-option .form-check label {
+            font-weight: 500;
+            font-size: 18px;
+            padding-left: 10px
+        }
+
+        .checkout-section .payment-option img {
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            position: absolute;
+            right: 20px;
+            width: 60px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            gap: calc(17px + (45 - 17) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li {
+            position: relative;
+            width: 100%
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li:last-child .checkout-box::before {
+            content: none
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            padding: 6px;
+            background-color: #f8f8f8
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-icon {
+            left: unset;
+            right: 0
+        }
+
+        @media (max-width: 575px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-icon {
+                display: none
+            }
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-icon .lord-icon {
+            width: 100%;
+            height: 100%
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box {
+            padding: calc(14px + (29 - 14) * ((100vw - 320px) / (1920 - 320)));
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            -webkit-box-shadow: 0 0 8px #eee;
+            box-shadow: 0 0 8px #eee;
+            margin-left: 66px;
+            position: relative
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box {
+            margin-left: unset;
+            margin-right: 66px
+        }
+
+        @media (max-width: 575px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box {
+                margin-left: 0
+            }
+
+            [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box {
+                margin-left: unset;
+                margin-right: 0
+            }
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box::before {
+            content: "";
+            position: absolute;
+            top: 25px;
+            left: -42px;
+            width: 0;
+            height: 115%;
+            border-left: 1px dashed rgba(34, 34, 34, 0.18);
+            z-index: -1
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box::before {
+            left: unset;
+            right: -42px
+        }
+
+        @media (max-width: 575px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box::before {
+                content: none
+            }
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-title {
+            margin-bottom: calc(9px + (17 - 9) * ((100vw - 320px) / (1920 - 320)));
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-title h4 {
+            font-weight: 600;
+            font-size: calc(16px + (19 - 16) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box {
+            border-radius: 8px;
+            padding: calc(12px + (24 - 12) * ((100vw - 320px) / (1920 - 320)));
+            background-color: #fff;
+            height: 100%;
+            -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.07);
+            box-shadow: 0 0 9px rgba(0, 0, 0, 0.07)
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            position: relative
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .label {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: var(--theme-color);
+            padding: 2px 8px;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 12px;
+            letter-spacing: 0.8px
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .label {
+            right: unset;
+            left: 0
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .form-check .form-check-input {
+            width: calc(15px + (17 - 15) * ((100vw - 320px) / (1920 - 320)));
+            height: calc(15px + (17 - 15) * ((100vw - 320px) / (1920 - 320)));
+            margin-top: 2px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .form-check .form-check-input:checked {
+            background-color: var(--theme-color);
+            border-color: var(--theme-color)
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .form-check .form-check-input:checked[type="radio"] {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e")
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .form-check .form-check-input:focus {
+            -webkit-box-shadow: none;
+            box-shadow: none
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .delivery-address-detail {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-left: 10px;
+            width: calc(85% + (75 - 85) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .delivery-address-detail {
+            margin-left: unset;
+            margin-right: 10px;
+            padding-right: 0
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .delivery-address-detail li {
+            display: block;
+            width: 100%
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .delivery-address-detail p,
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .delivery-address-detail h6 {
+            line-height: 1.4;
+            margin-bottom: 0;
+            font-weight: 400;
+            font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .delivery-address-detail p span,
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-address-box>div .delivery-address-detail h6 span {
+            margin-right: 4px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .add-address {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding: 30px;
+            height: 100%;
+            text-align: center;
+            cursor: pointer;
+            background-color: #fff;
+            -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.07);
+            box-shadow: 0 0 9px rgba(0, 0, 0, 0.07);
+            border-radius: 8px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option {
+            padding: calc(17px + (26 - 17) * ((100vw - 320px) / (1920 - 320)));
+            background-color: #fff;
+            border-radius: 5px
+        }
+
+        @media (max-width: 1460px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .select-option {
+                margin-top: 6px
+            }
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .date-box {
+            position: relative
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .date-box i {
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            position: absolute;
+            right: 17px;
+            font-size: 18px;
+            color: #4a5568
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-category {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 100%
+        }
+
+        @media (max-width: 767px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-category {
+                display: block
+            }
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .custom-form-check {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-bottom: 0;
+            min-height: auto
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .custom-form-check {
+            padding-left: unset;
+            padding-right: 1.5rem
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .custom-form-check .form-check-label {
+            font-size: calc(15px + (19 - 15) * ((100vw - 320px) / (1920 - 320)));
+            padding-left: 12px;
+            font-weight: 500
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .custom-form-check .form-check-label {
+            padding-left: unset;
+            padding-right: 12px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-date {
+            font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500;
+            border: 1px solid #ececec;
+            background-color: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: #4a5568;
+            width: 100%;
+            padding: calc(8px + (10 - 8) * ((100vw - 320px) / (1920 - 320))) calc(15px + (25 - 15) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-date input {
+            font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500;
+            border: none;
+            background-color: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: #4a5568;
+            width: 100%
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-time {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 100%
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-time .dropdown-toggle {
+            font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500;
+            border: 1px solid #ececec;
+            background-color: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: #4a5568
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-time .dropdown-toggle i {
+            -webkit-text-stroke: 1px #4a5568;
+            color: transparent;
+            font-size: 18px;
+            margin-right: 10px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-time .dropdown-toggle::after {
+            content: none
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-time .dropdown-toggle::before {
+            content: "ï„‡";
+            position: absolute;
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 20px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-time .dropdown-menu {
+            border: 1px solid transparent;
+            -webkit-box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1)
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-time .dropdown-menu li a:active {
+            color: #000;
+            text-decoration: none;
+            background-color: #ececec
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .delivery-option .delivery-time .dropdown-menu li+li {
+            margin-top: 5px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box {
+            display: none
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box.show {
+            display: block
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option {
+            padding: calc(17px + (26 - 17) * ((100vw - 320px) / (1920 - 320)));
+            background-color: #fff;
+            border-radius: 5px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 100%
+        }
+
+        @media (max-width: 575px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center
+            }
+        }
+
+        @media (max-width: 480px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items {
+                display: block
+            }
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items h5 {
+            letter-spacing: 0.5px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items h5.items {
+            margin-bottom: 5px
+        }
+
+        @media (max-width: 575px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items h5.items {
+                margin-bottom: 0
+            }
+        }
+
+        @media (max-width: 480px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items h5.items {
+                margin-bottom: 5px
+            }
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items h5.items span {
+            text-decoration: underline
+        }
+
+        @media (max-width: 575px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items h5.charge {
+                margin-top: 8px
+            }
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items h5 i {
+            font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
+            margin-left: 7px;
+            color: rgba(0, 0, 0, 0.25)
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .future-box .future-option .delivery-items h5 i {
+            margin-left: unset;
+            margin-right: 7px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .payment-button {
+            padding: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320))) calc(15px + (25 - 15) * ((100vw - 320px) / (1920 - 320)));
+            font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .payment-method .custom-form-check label {
+            font-weight: 500;
+            font-size: 17px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .credit-card-box .credit-detail {
+            position: relative
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .credit-info label {
+            font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .payment-option {
+            padding: 20px;
+            -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+            border-radius: 8px;
+            position: relative
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .payment-option .form-check .form-check-input {
+            margin-top: 4px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .payment-option .form-check label {
+            font-weight: 500;
+            font-size: 18px;
+            padding-left: 10px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .payment-option img {
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            position: absolute;
+            right: 20px;
+            width: 60px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            gap: calc(10px + (30 - 10) * ((100vw - 320px) / (1920 - 320)));
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item {
+            border: none;
+            border-radius: 6px;
+            overflow: hidden;
+            display: block;
+            width: 100%
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button {
+            color: #4a5568;
+            position: relative;
+            padding: 0
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button::after {
+            content: none
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button::before {
+            /*content: "ï„‡";*/
+            position: absolute;
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 30px;
+            -webkit-transition: -webkit-transform 0.2s ease-in-out;
+            transition: -webkit-transform 0.2s ease-in-out;
+            transition: transform 0.2s ease-in-out;
+            transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button::before {
+            right: unset;
+            left: 30px
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+            color: #222;
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            box-shadow: none
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::before {
+            top: 20%;
+            -webkit-transform: rotate(-180deg) translateY(-50%);
+            transform: rotate(-180deg) translateY(-50%)
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button .form-check {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 100%
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label {
+            font-weight: 500;
+            color: #222;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 100%;
+            font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
+            padding: 16px 20px
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label {
+            padding-right: 0
+        }
+
+        @media (max-width: 480px) {
+            .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label {
+                margin-top: 5px
+            }
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label .form-check-input {
+            margin-right: calc(6px + (10 - 6) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-header .accordion-button .form-check .form-check-label .form-check-input {
+            margin-left: calc(6px + (10 - 6) * ((100vw - 320px) / (1920 - 320)));
+            margin-right: unset
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-collapse .accordion-body {
+            padding-top: 0
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-collapse .accordion-body .cod-review {
+            margin: 0;
+            line-height: 1.5;
+            color: #4a5568
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-collapse .accordion-body .cod-review a:hover {
+            color: var(--theme-color)
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-collapse .accordion-body .custom-form-check {
+            margin-bottom: calc(5px + (8 - 5) * ((100vw - 320px) / (1920 - 320)));
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-collapse .accordion-body .custom-form-check {
+            padding-left: unset;
+            padding-right: 0
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-collapse .accordion-body .custom-form-check label {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            font-size: calc(14px + (17 - 14) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-collapse .accordion-body .custom-form-check input {
+            margin-right: 10px
+        }
+
+        [dir="rtl"] .checkout-section-2 .left-sidebar-checkout .checkout-detail-box>ul>li .checkout-box .checkout-detail .custom-accordion .accordion-item .accordion-collapse .accordion-body .custom-form-check input {
+            margin-right: unset;
+            margin-left: 10px
+        }
+
+        .checkout-section-2 .right-side-summery-box {
+            position: sticky;
+            top: 110px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 {
+            border-radius: 7px;
+            background-color: #f8f8f8;
+            padding: calc(14px + (29 - 14) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-header {
+            padding-bottom: calc(12px + (16 - 12) * ((100vw - 320px) / (1920 - 320)));
+            border-bottom: 1px solid #ececec;
+            margin-bottom: 10px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-header h3 {
+            font-weight: 600
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-header a {
+            font-weight: 500;
+            margin-left: auto;
+            font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-header a:hover {
+            color: var(--theme-color)
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-header a {
+            margin-left: unset;
+            margin-right: auto
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain {
+            border-bottom: 1px solid #ececec
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain::-webkit-scrollbar-track {
+            background-color: #4a5568
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain::-webkit-scrollbar {
+            width: 3px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain::-webkit-scrollbar-thumb {
+            background-color: var(--theme-color);
+            border-radius: 4px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain .checkout-image {
+            width: calc(41px + (52 - 41) * ((100vw - 320px) / (1920 - 320)));
+            height: calc(41px + (52 - 41) * ((100vw - 320px) / (1920 - 320)));
+            -o-object-fit: contain;
+            object-fit: contain;
+            margin-right: 10px
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain .checkout-image {
+            margin-right: unset;
+            margin-left: 10px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain .coupon-cart .coupon-box {
+            position: relative;
+            overflow: hidden;
+            border-radius: 4px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain .coupon-cart .coupon-box .btn-apply {
+            background: var(--theme-color);
+            color: #fff;
+            padding: 0 calc(16px + (30 - 16) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 700;
+            border: none
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain .coupon-cart .coupon-box .form-control {
+            border: 2px solid var(--theme-color);
+            padding: 10px
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain ul {
+            padding-right: 0
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain ul li {
+            padding: 10px 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain ul li:last-child {
+            border-bottom: none
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain ul li h4 {
+            font-size: 15px;
+            color: #4a5568
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain ul li h4.price {
+            color: #4a5568;
+            margin-left: auto
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain ul li h4.price {
+            margin-left: unset;
+            margin-right: auto
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain ul li h4.price .shpping-contain {
+            display: block;
+            font-weight: 400;
+            font-size: 13px;
+            margin-top: 3px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain ul li h4 span {
+            font-weight: 600
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain {
+            border-bottom: 1px solid #ececec;
+            padding-bottom: 10px
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain {
+            padding-bottom: 10px;
+            padding: 0
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain::-webkit-scrollbar-track {
+            background-color: transparent
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain::-webkit-scrollbar {
+            width: 3px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain::-webkit-scrollbar-thumb {
+            background-color: var(--theme-color);
+            border-radius: 4px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain li {
+            padding: calc(6px + (8 - 6) * ((100vw - 320px) / (1920 - 320))) 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain li:last-child {
+            border-bottom: none
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain li p {
+            font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+            line-height: 1.6;
+            margin: 0
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain li h4 {
+            font-size: 15px;
+            color: #4a5568
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain li h4.price {
+            color: #4a5568;
+            margin-left: auto
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain li h4.price {
+            margin-left: unset;
+            margin-right: auto
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain li h4.price .shpping-contain {
+            display: block;
+            font-weight: 400;
+            font-size: 13px;
+            margin-top: 3px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-contain li h4 span {
+            font-weight: 600
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total {
+            margin-top: 0px;
+            padding-top: 5px
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total {
+            padding: 0;
+            padding-top: 5px
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total li {
+            padding-top: 8px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total li h4 {
+            font-size: 17px;
+            color: #222
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total li h4.price {
+            margin-left: auto
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total li h4.price {
+            margin-left: unset;
+            margin-right: auto
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total li h4 span {
+            font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 600
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total li:nth-child(4) {
+            padding: calc(12px + (16 - 12) * ((100vw - 320px) / (1920 - 320))) 0
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total li:nth-child(4) h4 {
+            font-weight: 600;
+            color: var(--theme-color)
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total li:last-child {
+            border-top: 1px solid #ececec;
+            padding-top: calc(12px + (16 - 12) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .right-side-summery-box .summery-box-2 .summery-total li:last-child h4 {
+            font-weight: 600;
+            font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer {
+            margin-top: 24px;
+            border-radius: 7px;
+            background-color: #f8f8f8;
+            padding: calc(14px + (29 - 14) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer .offer-title {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            gap: calc(9px + (12 - 9) * ((100vw - 320px) / (1920 - 320)));
+            margin-bottom: calc(13px + (20 - 13) * ((100vw - 320px) / (1920 - 320)))
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer .offer-title .offer-icon {
+            width: 20px
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer .offer-title .offer-name h6 {
+            font-weight: 600;
+            font-size: calc(15px + (16 - 15) * ((100vw - 320px) / (1920 - 320)));
+            line-height: 1;
+            margin-bottom: -2px
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer .offer-detail {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            gap: calc(11px + (16 - 11) * ((100vw - 320px) / (1920 - 320)));
+            height: 100%;
+            overflow: hidden auto;
+            max-height: 104px
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .checkout-offer .offer-detail {
+            padding: 0
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer .offer-detail::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background-color: rgba(85, 85, 85, 0.14)
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer .offer-detail::-webkit-scrollbar {
+            width: 4px;
+            background-color: #f5f5f5;
+            border-radius: 50px
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer .offer-detail::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: rgba(85, 85, 85, 0.5)
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer .offer-detail li {
+            display: block
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer .offer-detail li p {
+            color: #4a5568;
+            line-height: 1.5;
+            position: relative;
+            padding-left: 23px;
+            font-size: calc(13px + (13 - 13) * ((100vw - 320px) / (1920 - 320)));
+            margin: 0
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .checkout-offer .offer-detail li p {
+            padding-left: unset;
+            padding-right: 23px
+        }
+
+        .checkout-section-2 .right-side-summery-box .checkout-offer .offer-detail li p::before {
+            content: "";
+            position: absolute;
+            top: 7px;
+            left: 7px;
+            width: 5px;
+            height: 5px;
+            background-color: #4a5568;
+            border-radius: 100%
+        }
+
+        [dir="rtl"] .checkout-section-2 .right-side-summery-box .checkout-offer .offer-detail li p::before {
+            left: unset;
+            right: 7px
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="section section-header" id="section-header">
+        <header class="pb-md-4 pb-0">
+            <div class="top-nav top-header sticky-header">
+                <div class="container-fluid-lg">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="navbar-top">
+
+                                <a href="index.html" class="web-logo nav-logo">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt="">
+                                </a>
+                                <div class="middle-box">
+                                    <div class="search-box">
+                                        <div class="input-group" style="margin-bottom: 13px;">
+                                            <form class="form-inline my-4">
+                                                <input class="form-control mr-sm-2" type="search"
+                                                    placeholder="Tìm kiếm tại đây..." aria-label="Tìm kiếm tại đây..."
+                                                    style="border-radius: 5px;">
+                                                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"
+                                                    style="border: none !important;"><span
+                                                        class="glyphicon glyphicon-search"></span></button>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div class="rightside-box">
+                                        <div class="search-full">
+                                            <div class="input-group">
+                                                <span class="input-group-text">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                                                        </line>
+                                                    </svg>
+                                                </span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-x font-light">
+                                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                                </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <ul class="right-side-menu">
+                                            <li class="right-side">
+                                                <div class="delivery-login-box">
+                                                    <div class="delivery-icon">
+                                                        <div class="search-box">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="feather feather-search">
+                                                                <circle cx="11" cy="11" r="8"></circle>
+                                                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="right-side">
+                                                <a href="contact-us.html" class="delivery-login-box">
+                                                    <div class="delivery-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-phone-call">
+                                                            <path
+                                                                d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="right-side">
+                                                <a href="wishlist.html"
+                                                    class="btn p-0 position-relative header-wishlist">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li class="right-side onhover-dropdown">
+                                                <div class="delivery-login-box">
+                                                    <div class="delivery-icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-user">
+                                                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                                            <circle cx="12" cy="7" r="4"></circle>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="delivery-detail">
+                                                        <h6>Hello,</h6>
+                                                        <h5>My Account</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="onhover-div onhover-div-login">
+                                                    <ul class="user-box-name">
+                                                        <li class="product-box-contain">
+                                                            <i></i>
+                                                            <a href="login.html">Đăng nhập</a>
+                                                        </li>
+                                                        <li class="product-box-contain">
+                                                            <a href="sign-up.html" _msttexthash="132717"
+                                                                _msthash="38">Đăng
+                                                                ký</a>
+                                                        </li>
+                                                        <li class="product-box-contain">
+                                                            <a href="forgot.html">Quên mật khẩu</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid-lg">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="header-nav">
+                                <div class="header-nav-left">
+                                    <button class="dropdown-category">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-align-left">
+                                            <line x1="17" y1="10" x2="3" y2="10"></line>
+                                            <line x1="21" y1="6" x2="3" y2="6"></line>
+                                            <line x1="21" y1="14" x2="3" y2="14"></line>
+                                            <line x1="17" y1="18" x2="3" y2="18"></line>
+                                        </svg>
+                                        <span>Tất cả danh mục</span>
+                                    </button>
+                                    <div class="category-dropdown">
+                                        <div class="category-title">
+                                            <h5>Categories</h5>
+                                            <button type="button" class="btn p-0 close-button text-content">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </button>
+                                        </div>
+                                        <ul class="category-list">
+                                            <li class="onhover-category-list">
+                                                <a href="javascript:void(0)" class="category-name">
+                                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg"
+                                                        alt="">
+                                                    <h6>Rau &amp; Trái cây</h6>
+                                                    <i class="fa fa-angle-right"></i>
+                                                </a>
+                                                <div class="onhover-category-box">
+                                                    <div class="list-1">
+                                                        <div class="category-title-box">
+                                                            <h5>Rau hữu cơ</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Khoai tây &amp; Cà chua</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Dưa chuột &amp; ớt
+                                                                    chuông</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Rau lá</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Rau củ</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Đậu &amp;; đậu bắp</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Bắp cải &amp;; súp lơ</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Bầu &amp; Dùi trống</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Đặc biệt</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="list-2">
+                                                        <div class="category-title-box">
+                                                            <h5>Trái cây tươi</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Chuối &amp; Đu đủ</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Kiwi, trái cây họ cam
+                                                                    quýt</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Táo &amp; Lựu</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Trái cây theo mùa</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Xoài</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Giỏ trái cây</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="onhover-category-list">
+                                                <a href="javascript:void(0)" class="category-name">
+                                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg"
+                                                        alt="">
+                                                    <h6>Thức uống</h6>
+                                                    <i class="fa fa-angle-right"></i>
+                                                </a>
+                                                <div class="onhover-category-box w-100">
+                                                    <div class="list-1">
+                                                        <div class="category-title-box">
+                                                            <h5>Năng lượng &amp; Nước giải khát</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Soda &amp;Cocktail Mix</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Soda &amp; Cocktail Mix</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Thể thao &amp; Nước tăng
+                                                                    lực</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Đồ uống không cồn</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Nước đóng gói</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Nước suối</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Nước có hương vị</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="onhover-category-list">
+                                                <a href="javascript:void(0)" class="category-name">
+                                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg"
+                                                        alt="">
+                                                    <h6>Thịt &amp; Hải sản</h6>
+                                                    <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="onhover-category-box">
+                                                    <div class="list-1">
+                                                        <div class="category-title-box">
+                                                            <h5>Thịt</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Thịt tươi</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Thịt đông lạnh</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Thịt ướp</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Thịt tươi &amp; đông
+                                                                    lạnh</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="list-2">
+                                                        <div class="category-title-box">
+                                                            <h5>Hải sản</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Cá nước ngọt</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Cá khô</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Cá đông lạnh &amp; Hải
+                                                                    sản</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Cá nước biển</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Hải sản đóng hộp</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Tôm &amp; Tôm</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Hải sản khác</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="onhover-category-list">
+                                                <a href="javascript:void(0)" class="category-name">
+                                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg"
+                                                        alt="">
+                                                    <h6>Bữa sáng &amp; Sữa</h6>
+                                                    <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+
+                                                <div class="onhover-category-box">
+                                                    <div class="list-1">
+                                                        <div class="category-title-box">
+                                                            <h5>Ngũ cốc ăn sáng</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Yến mạch &amp; Cháo</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Ngũ cốc trẻ em</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Muesli</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Mảnh</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Granola &amp;; Thanh ngũ
+                                                                    cốc</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Mì ăn liền</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Mì ống &amp;; Macaroni</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Đồ ăn nhẹ không chay đông
+                                                                    lạnh</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="list-2">
+                                                        <div class="category-title-box">
+                                                            <h5>Sữa</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Sữa</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Curd</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Paneer, Đậu phụ &amp;
+                                                                    Kem</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Bơ &amp;; bơ thực vật</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">sữa đặc, sữa bột</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Bơ sữa &amp; Lassi</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Sữa chua &amp;
+                                                                    Shrikhand</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Sữa đậu nành có hương
+                                                                    vị</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="onhover-category-list">
+                                                <a href="javascript:void(0)" class="category-name">
+                                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg"
+                                                        alt="">
+                                                    <h6>Thực phẩm đông lạnh</h6>
+                                                    <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+
+                                                <div class="onhover-category-box w-100">
+                                                    <div class="list-1">
+                                                        <div class="category-title-box">
+                                                            <h5>Mì, mì ống</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Mì ăn liền</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Mì Hakka</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Mì ly</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Bún</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Mì ống ăn liền</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="onhover-category-list">
+                                                <a href="javascript:void(0)" class="category-name">
+                                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/biscuit.svg"
+                                                        alt="">
+                                                    <h6>Bánh quy &amp; Đồ ăn nhẹ</h6>
+                                                    <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+
+                                                <div class="onhover-category-box">
+                                                    <div class="list-1">
+                                                        <div class="category-title-box">
+                                                            <h5>Bánh quy &amp;; Cookie</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Bánh quy muối</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Marie, Sức khỏe, Tiêu
+                                                                    hóa</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Bánh quy kem &amp; Bánh
+                                                                    xốp</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Glucose &amp; Bánh quy
+                                                                    sữa</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Cookie</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="list-2">
+                                                        <div class="category-title-box">
+                                                            <h5>Đồ ăn nhẹ bánh</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Bánh mì que &amp;
+                                                                    Lavash</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Phô mai &amp; Bánh mì
+                                                                    tỏi</a>
+                                                            </li>
+                                                            <li>
+                                                fa-solid fa-angle-right                <a href="javascript:void(0)">Puffs, Patties,
+                                                                    Sandwiches</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Breadcrumbs &amp;
+                                                                    Croutons</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="onhover-category-list">
+                                                <a href="javascript:void(0)" class="category-name">
+                                                    <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
+                                                        alt="">
+                                                    <h6>Tạp hóa &amp; Staples</h6>
+                                                    <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+
+                                                <div class="onhover-category-box">
+                                                    <div class="list-1">
+                                                        <div class="category-title-box">
+                                                            <h5>Grocery</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Chanh, gừng và tỏi</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Ấn Độ &amp; Thảo mộc kỳ
+                                                                    lạ</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Rau hữu cơ</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Trái cây hữu cơ</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="list-2">
+                                                        <div class="category-title-box">
+                                                            <h5>Mặt hàng chủ lực hữu cơ</h5>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Trái cây khô hữu cơ</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Hữu cơ Dals &amp;
+                                                                    Pulses</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Kê hữu cơ &amp; Bột</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Đường hữu cơ, đường thốt
+                                                                    nốt</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Masalas hữu cơ &amp; Gia
+                                                                    vị</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Gạo hữu cơ, gạo khác</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Bột hữu cơ</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:void(0)">Dầu ăn hữu cơ, Ghee</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="header-nav-middle">
+                                    <div class="dropdown menu">
+                                        <ul><button class="dropbtn" id="btnHome" style="width: 100px;">Home</button>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown menu">
+                                        <ul><button class="dropbtn" id="btnSanPham" style="width: 100px;">Sản phẩm
+                                            </button>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown menu">
+                                        <ul><button class="dropbtn" id="btnBlog" style="width: 100px;">Blog</button>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown menu">
+                                        <ul><button class="dropbtn"> Liên hệ </button></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </header>
+    </section>
+    <!-- Breadcrumb Section Start -->
+
+    <section class="breadscrumb-section pt-0">
+        <div class="container-fluid-lg">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadscrumb-contain">
+                        <h2>Checkout</h2>
+                        <nav>
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item">
+                                    <a href="index.html">
+                                        <i class="fa fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="fa-solid fa-angle-right" aria-current="page">Checkout</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Checkout section Start -->
+    <section class="checkout-section-2 section-b-space">
+        <div class="container-fluid-lg">
+            <div class="row g-sm-4 g-3">
+                <div class="col-lg-8">
+                    <div class="left-sidebar-checkout">
+                        <div class="checkout-detail-box">
+                            <ul>
+                                <li>
+                                    <div class="checkout-icon">
+                                        <lord-icon target=".nav-item" src="https://cdn.lordicon.com/ggihhudh.json"
+                                            trigger="loop-on-hover"
+                                            colors="primary:#121331,secondary:#646e78,tertiary:#0baf9a "
+                                            class="lord-icon"></lord-icon>
+                                    </div>
+                                    <div class="checkout-box">
+                                        <div class="checkout-title">
+                                            <h4>Địa chỉ giao hàng</h4>
+                                        </div>
+                                        <div class="checkout-detail">
+                                            <div class="row g-4">
+                                                <div class="col-xxl-6 col-lg-12 col-md-6">
+                                                    <div class="delivery-address-box">
+                                                        <div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="radio" name="jack"
+                                                                    id="flexRadioDefault1">
+                                                            </div>
+                                                            <div class="label">
+                                                                <label>Nhà</label>
+                                                            </div>
+                                                            <ul class="delivery-address-detail">
+                                                                <li>
+                                                                    <h4 class="fw-500">Jack Jennas</h4>
+                                                                </li>
+                                                                <li>
+                                                                    <p class="text-content"><span class="text-title">Địa
+                                                                            chỉ:</span>
+                                                                        <font>8424 Ngõ James Nam San Francisco, CA 94080
+                                                                        </font>
+                                                                    </p>
+                                                                </li>
+                                                                <li>
+                                                                    <h6 class="text-content"><span class="text-title">Mã
+                                                                            pin:</span>
+                                                                        <font> +380</font>
+                                                                    </h6>
+                                                                </li>
+                                                                <li>
+                                                                    <h6 class="text-content mb-0"><span
+                                                                            class="text-title">Điện thoại:</span>
+                                                                        <font> + 380 (0564) 53 - 29 - 68</font>
+                                                                    </h6>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-6 col-lg-12 col-md-6">
+                                                    <div class="delivery-address-box">
+                                                        <div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="radio" name="jack"
+                                                                    id="flexRadioDefault2" checked="checked">
+                                                            </div>
+                                                            <div class="label">
+                                                                <label>Văn Phòng</label>
+                                                            </div>
+                                                            <ul class="delivery-address-detail">
+                                                                <li>
+                                                                    <h4 class="fw-500">Jack Jennas</h4>
+                                                                </li>
+                                                                <li>
+                                                                    <p class="text-content"><span class="text-title">Địa
+                                                                            chỉ:</span>
+                                                                        <font>Nakhimovskiy R-N / Lastovaya Ul., blđ.
+                                                                            5/A, phụ lục 12 </font>
+                                                                    </p>
+                                                                </li>
+                                                                <li>
+                                                                    <h6 class="text-content"><span class="text-title">Mã
+                                                                            pin :</span>
+                                                                        <font> +380</font>
+                                                                    </h6>
+                                                                </li>
+                                                                <li>
+                                                                    <h6 class="text-content mb-0"><span
+                                                                            class="text-title">Điện thoại:</span>
+                                                                        <font> + 380 (0564) 53 - 29 - 68</font>
+                                                                    </h6>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="checkout-icon">
+                                        <lord-icon target=".nav-item" src="https://cdn.lordicon.com/oaflahpk.json"
+                                            trigger="loop-on-hover" colors="primary:#0baf9a" class="lord-icon">
+                                        </lord-icon>
+                                    </div>
+                                    <div class="checkout-box">
+                                        <div class="checkout-title">
+                                            <h4>Tùy chọn giao hàng</h4>
+                                        </div>
+                                        <div class="checkout-detail">
+                                            <div class="row g-4">
+                                                <div class="col-xxl-6">
+                                                    <div class="delivery-option">
+                                                        <div class="delivery-category">
+                                                            <div class="shipment-detail">
+                                                                <div
+                                                                    class="form-check custom-form-check hide-check-box">
+                                                                    <input class="form-check-input" type="radio"
+                                                                        name="standard" id="standard" checked="">
+                                                                    <label class="form-check-label" for="standard">Chuẩn
+                                                                        Tùy chọn giao hàng</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-6">
+                                                    <div class="delivery-option">
+                                                        <div class="delivery-category">
+                                                            <div class="shipment-detail">
+                                                                <div
+                                                                    class="form-check mb-0 custom-form-check show-box-checked">
+                                                                    <input class="form-check-input" type="radio"
+                                                                        name="standard" id="future">
+                                                                    <label class="form-check-label" for="future">Tương
+                                                                        lai
+                                                                        Tùy chọn giao hàng</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                <li>
+                                    <div class="checkout-icon">
+                                        <lord-icon target=".nav-item" src="https://cdn.lordicon.com/qmcsqnle.json"
+                                            trigger="loop-on-hover" colors="primary:#0baf9a,secondary:#0baf9a"
+                                            class="lord-icon">
+                                        </lord-icon>
+                                    </div>
+                                    <div class="checkout-box">
+                                        <div class="checkout-title">
+                                            <h4>Tùy chọn thanh toán</h4>
+                                        </div>
+                                        <div class="checkout-detail">
+                                            <div class="accordion accordion-flush custom-accordion"
+                                                id="accordionFlushExample">
+                                                <div class="accordion-item">
+                                                    <div class="accordion-header" id="flush-headingFour">
+                                                        <div class="accordion-button collapsed"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseFour" aria-expanded="false">
+                                                            <div class="custom-form-check form-check mb-0">
+                                                                <label class="form-check-label" for="cash"><input
+                                                                        class="form-check-input mt-0" type="radio"
+                                                                        name="flexRadioDefault" id="cash" checked="">
+                                                                    <span> Tiền mặt Khi giao hàng</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body">
+                                                            <p class="cod-review">
+                                                                <span>Thanh toán kỹ thuật số bằng SMS Pay Liên kết. Tiền
+                                                                    mặt có thể không được chấp nhận trong COVID bị hạn
+                                                                    chế Khu vực. <a href="javascript:void(0)"
+                                                                        _mstmutation="1">Tìm hiểu thêm.</a></span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <div class="accordion-header" id="flush-headingOne">
+                                                        <div class="accordion-button collapsed"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseOne" aria-expanded="false">
+                                                            <div class="custom-form-check form-check mb-0">
+                                                                <label class="form-check-label" for="credit"><input
+                                                                        class="form-check-input mt-0" type="radio"
+                                                                        name="flexRadioDefault" id="credit">
+                                                                    <span> Thẻ tín dụng hoặc thẻ ghi nợ</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body">
+                                                            <div class="row g-2">
+                                                                <div class="col-12">
+                                                                    <div class="payment-method">
+                                                                        <div
+                                                                            class="form-floating mb-lg-3 mb-2 theme-form-floating">
+                                                                            <input type="text" class="form-control"
+                                                                                id="credit2"
+                                                                                placeholder="Enter Credit &amp; Debit Card Number">
+                                                                            <label for="credit2">Nhập Tín dụng &amp; Số
+                                                                                thẻ ghi nợ</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xxl-4">
+                                                                    <div
+                                                                        class="form-floating mb-lg-3 mb-2 theme-form-floating">
+                                                                        <input type="text" class="form-control"
+                                                                            id="expiry" placeholder="Enter Expiry Date">
+                                                                        <label for="expiry">Ngày hết hạn</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xxl-4">
+                                                                    <div
+                                                                        class="form-floating mb-lg-3 mb-2 theme-form-floating">
+                                                                        <input type="text" class="form-control" id="cvv"
+                                                                            placeholder="Enter CVV Number">
+                                                                        <label for="cvv">Số bảo mật</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xxl-4">
+                                                                    <div
+                                                                        class="form-floating mb-lg-3 mb-2 theme-form-floating">
+                                                                        <input type="password" class="form-control"
+                                                                            id="password" placeholder="Enter Password">
+                                                                        <label for="password">Mật khẩu</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="button-group mt-0">
+                                                                    <ul>
+                                                                        <li><button
+                                                                                class="btn btn-light shopping-button">
+                                                                                Hủy bỏ</button></li>
+                                                                        <li><button class="btn btn-animation">Sử dụng
+                                                                                thẻ này</button></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <div class="accordion-header" id="flush-headingTwo">
+                                                        <div class="accordion-button collapsed"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseTwo" aria-expanded="false">
+                                                            <div class="custom-form-check form-check mb-0">
+                                                                <label class="form-check-label" for="banking">
+                                                                    <input class="form-check-input mt-0" type="radio"
+                                                                        name="flexRadioDefault" id="banking">
+                                                                    <font>Mạng Ngân hàng</font>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body">
+                                                            <h5 class="text-uppercase mb-4">Chọn ngân hàng của bạn</h5>
+                                                            <div class="row g-2">
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="bank1">
+                                                                        <label class="form-check-label" for="bank1">Công
+                                                                            nghiệp & Thương mại Ngân hàng</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="bank2">
+                                                                        <label class="form-check-label" for="bank2">Ngân
+                                                                            hàng Nông nghiệp</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="bank3">
+                                                                        <label class="form-check-label" for="bank3">Ngân
+                                                                            hàng của Mỹ</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="bank4">
+                                                                        <label class="form-check-label" for="bank4">Ngân
+                                                                            hàng Xây dựng Corp.</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="bank5">
+                                                                        <label class="form-check-label" for="bank5">HSBC
+                                                                            Holdings</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="bank6">
+                                                                        <label class="form-check-label"
+                                                                            for="bank6">JPMorgan Chase &amp; Co.</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12">
+                                                                    <div class="select-option">
+                                                                        <div class="form-floating theme-form-floating">
+                                                                            <select
+                                                                                class="form-select theme-form-select"
+                                                                                aria-label="Default select example">
+                                                                                <option value="hsbc"> Tập Đoàn HSBC
+                                                                                </option>
+                                                                                <option value="loyds">Tập đoàn ngân hàng
+                                                                                    Lloyds</option>
+                                                                                <option value="natwest">Tập đoàn Nat
+                                                                                    West</option>
+                                                                                <option value="Barclays">Barclays
+                                                                                </option>
+                                                                                <option value="other">Ngân hàng khác
+                                                                                </option>
+                                                                            </select>
+                                                                            <label>Chọn Ngân hàng khác</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <div class="accordion-header" id="flush-headingThree">
+                                                        <div class="accordion-button collapsed"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseThree" aria-expanded="false">
+                                                            <div class="custom-form-check form-check mb-0">
+                                                                <label class="form-check-label" for="wallet">
+                                                                    <input class="form-check-input mt-0" type="radio"
+                                                                        name="flexRadioDefault" id="wallet">
+                                                                    <font>Ví Của tôi</font>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body">
+                                                            <h5 class="text-uppercase mb-4">Chọn ví của bạn</h5>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <label class="form-check-label" for="amazon"
+                                                                            _msthidden="1"><input
+                                                                                class="form-check-input mt-0"
+                                                                                type="radio" name="flexRadioDefault"
+                                                                                id="amazon">
+                                                                            <font>Amazon Pay</font>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="gpay">
+                                                                        <label class="form-check-label"
+                                                                            for="gpay">Google Pay</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="Zalo pay">
+                                                                        <label class="form-check-label"
+                                                                            for="Zalo pay">Zalo pay</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="paytm">
+                                                                        <label class="form-check-label"
+                                                                            for="paytm">Paytm Pay</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="Momo">
+                                                                        <label class="form-check-label"
+                                                                            for="Momo">Momo</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="custom-form-check form-check">
+                                                                        <input class="form-check-input mt-0"
+                                                                            type="radio" name="flexRadioDefault"
+                                                                            id="free">
+                                                                        <label class="form-check-label"
+                                                                            for="free">Freecharge</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="right-side-summery-box">
+                        <div class="summery-box-2">
+                            <div class="summery-header">
+                                <h3>Tóm tắt theo thứ tự</h3>
+                            </div>
+                            <ul class="summery-contain" id = "summery-contain">
+                                <li class="list-total">
+                                    <h4>Tổng cộng (USD)</h4>
+                                    <h4 class="price" id="total-price">$19.28</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="checkout-offer">
+                            <div class="offer-title">
+                                <div class="offer-icon">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/images/inner-page/offer.svg"
+                                        class="img-fluid" alt="">
+                                </div>
+                                <div class="offer-name">
+                                    <h6>Ưu đãi có sẵn</h6>
+                                </div>
+                            </div>
+                            <ul class="offer-detail">
+                                <li>
+                                    <p>Combo: BB Royal Almond/Badam Californian, Extra Bold 100 gm...</p>
+                                </li>
+                                <li>
+                                    <p>Combo: Hạt Điều Hoàng Gia Califonia Extra Đậm 100g + Mật Ong Hoàng Gia BB 500g
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn theme-bg-color text-white btn-md w-100 mt-4 fw-bold">Đặt hàng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Checkout section End -->
+
+
+
+
+    
+<footer class="section-t-space">
+    <div class="container-fluid-lg">
+      <div class="service-section">
+        <div class="row g-3">
+          <div class="col-12">
+            <div class="service-contain">
+              <div class="service-box">
+                <div class="service-image">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/svg/product.svg" class="blur-up lazyloaded"
+                    alt="">
+                </div>
+                <div class="service-detail">
+                  <h5>Mọi sản phẩm tươi sống</h5>
+                </div>
+              </div>
+              <div class="service-box">
+                <div class="service-image">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/svg/delivery.svg" class="blur-up lazyloaded"
+                    alt="">
+                </div>
+                <div class="service-detail">
+                  <h5>Giao hàng miễn phí cho đơn hàng trên $ 50</h5>
+                </div>
+              </div>
+              <div class="service-box">
+                <div class="service-image">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/svg/discount.svg" class="blur-up lazyloaded"
+                    alt="">
+                </div>
+                <div class="service-detail">
+                  <h5>Giảm giá Mega hàng ngày</h5>
+                </div>
+              </div>
+              <div class="service-box">
+                <div class="service-image">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/svg/market.svg" class="blur-up lazyloaded"
+                    alt="">
+                </div>
+                <div class="service-detail">
+                  <h5>Giá tốt nhất trên thị trường</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer section-b-space section-t-space">
+        <div class="row g-md-4 g-3">
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="footer-logo">
+              <div class="theme-logo">
+                <a href="index.html">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" class="blur-up lazyloaded"
+                    alt="">
+                </a>
+              </div>
+              <div class="footer-logo-contain">
+                <p>Chúng tôi là một quán bar thân thiện phục vụ nhiều loại cocktail, rượu vang và bia. Thanh của chúng
+                  tôi là một
+                  Nơi hoàn hảo cho một cặp vợ chồng.</p>
+                <ul class="address">
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-home">
+                      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                      <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    <a href="javascript:void(0)" _msttexthash="4615507" _msthash="331">1418 Riverwood Drive, CA 96052,
+                      Hoa Kỳ</a>
+                  </li>
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-mail">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <a href="javascript:void(0)">support@fastkart.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+            <div class="footer-title">
+              <h4>Loại</h4>
+            </div>
+            <div class="footer-contain">
+              <ul>
+                <li> <a href="shop-left-sidebar.html" class="text-content">Rau &amp; Trái cây</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Thức uống</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Thịt &amp; Hải sản</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Thực phẩm đông lạnh</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Bánh quy &amp; Đồ ăn nhẹ</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Tạp hóa &amp; Staples</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl col-lg-2 col-sm-3">
+            <div class="footer-title">
+              <h4>Liên kết hữu ích</h4>
+            </div>
+            <div class="footer-contain">
+              <ul>
+                <li><a href="index.html" class="text-content">Nhà</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Cửa hàng</a></li>
+                <li><a href="about-us.html" class="text-content">Về chúng tôi</a></li>
+                <li><a href="blog-list.html" class="text-content">Tin tức</a></li>
+                <li><a href="contact-us.html" class="text-content">Liên hệ với chúng tôi</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-sm-3">
+            <div class="footer-title">
+              <h4>Trung tâm trợ giúp</h4>
+            </div>
+            <div class="footer-contain">
+              <ul>
+                <li><a href="order-success.html" class="text-content">Đơn hàng của bạn</a></li>
+                <li><a href="user-dashboard.html" class="text-content">Tài khoản của bạn</a></li>
+                <li><a href="order-tracking.html" class="text-content">Theo dõi đơn hàng</a></li>
+                <li><a href="wishlist.html" class="text-content">Danh sách yêu thích của bạn</a></li>
+                <li><a href="search.html" class="text-content">Tìm kiếm</a></li>
+                <li><a href="faq.html" class="text-content" _msttexthash="22607" _msthash="352">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="footer-title">
+              <h4>Liên hệ với chúng tôi</h4>
+            </div>
+            <div class="footer-contact">
+              <ul>
+                <li>
+                  <div class="footer-number">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-phone">
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                      </path>
+                    </svg>
+                    <div class="contact-number">
+                      <h6 class="text-content">Hotline 24/7 :</h6>
+                      <h5>+91 888 104 2340</h5>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="footer-number">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-mail">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <div class="contact-number">
+                      <h6 class="text-content">Địa chỉ email :</h6>
+                      <h5>fastkart@hotmail.com</h5>
+                    </div>
+                  </div>
+                </li>
+                <li class="social-app">
+                  <h5 class="mb-2 text-content">Tải xuống ứng dụng :</h5>
+                  <ul>
+                    <li class="mb-0">
+                      <a href="https://play.google.com/store/apps" target="_blank">
+                        <img src="https://themes.pixelstrap.com/fastkart/assets/images/playstore.svg"
+                          class="blur-up lazyloaded" alt="">
+                      </a>
+                    </li>
+                    <li class="mb-0">
+                      <a href="https://www.apple.com/in/app-store/" target="_blank">
+                        <img src="https://themes.pixelstrap.com/fastkart/assets/images/appstore.svg"
+                          class="blur-up lazyloaded" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer section-small-space">
+        <div class="reserve">
+          <h6 class="text-content" style="font-size: 15px;">©2022 Fastkart Mọi quyền được bảo lưu</h6>
+        </div>
+        <div class="payment">
+          <img src="https://themes.pixelstrap.com/fastkart/assets/images/payment/1.png" class="blur-up lazyloaded"
+            alt="">
+        </div>
+        <div class="social-link">
+          <h6 class="text-content" style="font-size: 15px;">Duy trì kết nối:</h6>
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li><a href="https://twitter.com/" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://in.pinterest.com/" target="_blank">
+                <i class="fa fa-pinterest-p"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script>
+
+        //click Blog 
+        let btnBlog = document.getElementById("btnBlog");
+        btnBlog.addEventListener('click', () => {
+            location.assign('blog.html');
+        })
+
+        //click Home 
+        let btnHome = document.getElementById("btnHome");
+        btnHome.addEventListener('click', () => {
+            location.assign('index.html');
+        })
+        //click Product 
+        let btnSanPham = document.getElementById("btnSanPham");
+        btnSanPham.addEventListener('click', () => {
+            location.assign('product.html');
+        })
+    </script>
+</body>
+
+</html>

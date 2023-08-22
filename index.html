@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Healthy Foods</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link href='https://fonts.googleapis.com/css?family=Public Sans' rel='stylesheet'>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Slick-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./js/app.js" defer></script>
+
+</head>
+
+<body>
+  <!--Header Section Start-->
+  <section class="section section-header" id="section-header">
+    <header class="pb-md-4 pb-0">
+      <div class="top-nav top-header sticky-header">
+        <div class="container-fluid-lg">
+          <div class="row">
+            <div class="col-12">
+              <div class="navbar-top">
+  
+                <a href="index.html" class="web-logo nav-logo">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt="">
+                </a>
+                <div class="middle-box">
+                  <div class="search-box">
+                    <div class="input-group" style="margin-bottom: 13px;">
+                      <form class="form-inline my-4">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm tại đây..."
+                          aria-label="Tìm kiếm tại đây..." style="border-radius: 5px;">
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><span
+                            class="glyphicon glyphicon-search"></span></button>
+                      </form>
+                    </div>
+                  </div>
+  
+                  <div class="rightside-box">
+                    <div class="search-full">
+                      <div class="input-group">
+                        <span class="input-group-text">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"></line></svg>
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                          class="feather feather-x font-light">
+                          <line x1="18" y1="6" x2="6" y2="18"></line>
+                          <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                        </span>
+                      </div>
+                    </div>
+                    <ul class="right-side-menu">
+                      <li class="right-side">
+                        <div class="delivery-login-box">
+                          <div class="delivery-icon">
+                            <div class="search-box">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-search">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="right-side">
+                        <a href="contact-us.html" class="delivery-login-box">
+                          <div class="delivery-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" class="feather feather-phone-call">
+                              <path
+                                d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                              </path>
+                            </svg>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="right-side">
+                        <a href="wishlist.html" class="btn p-0 position-relative header-wishlist">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="right-side onhover-dropdown">
+                        <div class="delivery-login-box">
+                          <div class="delivery-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" class="feather feather-user">
+                              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                              <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                          </div>
+                          <div class="delivery-detail">
+                            <h6>Hello,</h6>
+                            <h5>My Account</h5>
+                          </div>
+                        </div>
+                        <div class="onhover-div onhover-div-login">
+                          <ul class="user-box-name">
+                            <li class="product-box-contain">
+                              <i></i>
+                              <a href="login.html">Đăng nhập</a>
+                            </li>
+                            <li class="product-box-contain">
+                              <a href="sign-up.html" _msttexthash="132717" _msthash="38">Đăng ký</a>
+                            </li>
+                            <li class="product-box-contain">
+                              <a href="forgot.html">Quên mật khẩu</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container-fluid-lg">
+          <div class="row">
+            <div class="col-12">
+              <div class="header-nav">
+                <div class="header-nav-left">
+                  <button class="dropdown-category">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-align-left">
+                      <line x1="17" y1="10" x2="3" y2="10"></line>
+                      <line x1="21" y1="6" x2="3" y2="6"></line>
+                      <line x1="21" y1="14" x2="3" y2="14"></line>
+                      <line x1="17" y1="18" x2="3" y2="18"></line>
+                    </svg>
+                    <span>Tất cả danh mục</span>
+                  </button>
+                  <div class="category-dropdown">
+                    <div class="category-title">
+                      <h5>Categories</h5>
+                      <button type="button" class="btn p-0 close-button text-content">
+                        <i class="fa-solid fa-xmark"></i>
+                      </button>
+                    </div>
+                    <ul class="category-list">
+                      <li class="onhover-category-list">
+                        <a href="javascript:void(0)" class="category-name">
+                          <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg" alt="">
+                          <h6>Rau &amp; Trái cây</h6>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                        <div class="onhover-category-box">
+                          <div class="list-1">
+                            <div class="category-title-box">
+                              <h5>Rau hữu cơ</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Khoai tây &amp; Cà chua</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Dưa chuột &amp; ớt chuông</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Rau lá</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Rau củ</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Đậu &amp;; đậu bắp</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Bắp cải &amp;; súp lơ</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Bầu &amp; Dùi trống</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Đặc biệt</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="list-2">
+                            <div class="category-title-box">
+                              <h5>Trái cây tươi</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Chuối &amp; Đu đủ</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Kiwi, trái cây họ cam quýt</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Táo &amp; Lựu</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Trái cây theo mùa</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Xoài</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Giỏ trái cây</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="onhover-category-list">
+                        <a href="javascript:void(0)" class="category-name">
+                          <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg" alt="">
+                          <h6>Thức uống</h6>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                        <div class="onhover-category-box w-100">
+                          <div class="list-1">
+                            <div class="category-title-box">
+                              <h5>Năng lượng &amp; Nước giải khát</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Soda &amp;Cocktail Mix</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Soda &amp; Cocktail Mix</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Thể thao &amp; Nước tăng lực</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Đồ uống không cồn</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Nước đóng gói</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Nước suối</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Nước có hương vị</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="onhover-category-list">
+                        <a href="javascript:void(0)" class="category-name">
+                          <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg" alt="">
+                          <h6>Thịt &amp; Hải sản</h6>
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                        <div class="onhover-category-box">
+                          <div class="list-1">
+                            <div class="category-title-box">
+                              <h5>Thịt</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Thịt tươi</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Thịt đông lạnh</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Thịt ướp</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Thịt tươi &amp; đông lạnh</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="list-2">
+                            <div class="category-title-box">
+                              <h5>Hải sản</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Cá nước ngọt</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Cá khô</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Cá đông lạnh &amp; Hải sản</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Cá nước biển</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Hải sản đóng hộp</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Tôm &amp; Tôm</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Hải sản khác</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="onhover-category-list">
+                        <a href="javascript:void(0)" class="category-name">
+                          <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/breakfast.svg" alt="">
+                          <h6>Bữa sáng &amp; Sữa</h6>
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+  
+                        <div class="onhover-category-box">
+                          <div class="list-1">
+                            <div class="category-title-box">
+                              <h5>Ngũ cốc ăn sáng</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Yến mạch &amp; Cháo</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Ngũ cốc trẻ em</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Muesli</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Mảnh</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Granola &amp;; Thanh ngũ cốc</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Mì ăn liền</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Mì ống &amp;; Macaroni</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Đồ ăn nhẹ không chay đông lạnh</a>
+                              </li>
+                            </ul>
+                          </div>
+  
+                          <div class="list-2">
+                            <div class="category-title-box">
+                              <h5>Sữa</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Sữa</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Curd</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Paneer, Đậu phụ &amp; Kem</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Bơ &amp;; bơ thực vật</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">sữa đặc, sữa bột</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Bơ sữa &amp; Lassi</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Sữa chua &amp; Shrikhand</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Sữa đậu nành có hương vị</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+  
+                      <li class="onhover-category-list">
+                        <a href="javascript:void(0)" class="category-name">
+                          <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/frozen.svg" alt="">
+                          <h6>Thực phẩm đông lạnh</h6>
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+  
+                        <div class="onhover-category-box w-100">
+                          <div class="list-1">
+                            <div class="category-title-box">
+                              <h5>Mì, mì ống</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Mì ăn liền</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Mì Hakka</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Mì ly</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Bún</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Mì ống ăn liền</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+  
+                      <li class="onhover-category-list">
+                        <a href="javascript:void(0)" class="category-name">
+                          <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/biscuit.svg" alt="">
+                          <h6>Bánh quy &amp; Đồ ăn nhẹ</h6>
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+  
+                        <div class="onhover-category-box">
+                          <div class="list-1">
+                            <div class="category-title-box">
+                              <h5>Bánh quy &amp;; Cookie</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Bánh quy muối</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Marie, Sức khỏe, Tiêu hóa</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Bánh quy kem &amp; Bánh xốp</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Glucose &amp; Bánh quy sữa</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Cookie</a>
+                              </li>
+                            </ul>
+                          </div>
+  
+                          <div class="list-2">
+                            <div class="category-title-box">
+                              <h5>Đồ ăn nhẹ bánh</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Bánh mì que &amp; Lavash</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Phô mai &amp; Bánh mì tỏi</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Puffs, Patties, Sandwiches</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Breadcrumbs &amp; Croutons</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+  
+                      <li class="onhover-category-list">
+                        <a href="javascript:void(0)" class="category-name">
+                          <img src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg" alt="">
+                          <h6>Tạp hóa &amp; Staples</h6>
+                          <i class="fa-solid fa-angle-right"></i>
+                        </a>
+  
+                        <div class="onhover-category-box">
+                          <div class="list-1">
+                            <div class="category-title-box">
+                              <h5>Grocery</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Chanh, gừng và tỏi</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Ấn Độ &amp; Thảo mộc kỳ lạ</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Rau hữu cơ</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Trái cây hữu cơ</a>
+                              </li>
+                            </ul>
+                          </div>
+  
+                          <div class="list-2">
+                            <div class="category-title-box">
+                              <h5>Mặt hàng chủ lực hữu cơ</h5>
+                            </div>
+                            <ul>
+                              <li>
+                                <a href="javascript:void(0)">Trái cây khô hữu cơ</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Hữu cơ Dals &amp; Pulses</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Kê hữu cơ &amp; Bột</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Đường hữu cơ, đường thốt nốt</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Masalas hữu cơ &amp; Gia vị</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Gạo hữu cơ, gạo khác</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Bột hữu cơ</a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)">Dầu ăn hữu cơ, Ghee</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+  
+                <div class="header-nav-middle">
+                  <div class="dropdown menu">
+                    <ul><button class="dropbtn" id="btnHome" style="width: 100px;">Home</button>
+                    </ul>
+                  </div>
+                  <div class="dropdown menu">
+                    <ul><button class="dropbtn" id="btnSanPham" style="width: 100px;">Sản phẩm </button>
+                    </ul>
+                  </div>
+                  <div class="dropdown menu">
+                    <ul><button class="dropbtn" id="btnBlog" style="width: 100px;">Blog</button>
+                    </ul>
+                  </div>
+                  <div class="dropdown menu">
+                    <ul><button class="dropbtn" style="width: 100px;"> Liên hệ </button></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+    </header>
+  </section>
+  <!--Header Section End-->
+  <!--Home Section Start-->
+  <section class="section home-section" id="home-section">
+    <div class="container-fluid-lg">
+      <div class="row row-fluid">
+        <div class="col-xxl-6 col-md-8">
+          <div class="home-contain-right">
+            <img src="./img/1.png" class="img-fluid">
+            <div class="home-detail">
+              <div>
+                <h6 class="ls-expanded">ORGANIC</h6>
+                <h1 class="fw-bold">100% Fresh</h1>
+                <h3 class="text-content">Trái cây & Rau củ</h3>
+                <p class="d-sm-block d-none">Miễn phí vận chuyển trên tất cả các đơn đặt hàng của bạn.</p>
+                <button type="button" class="btn btn-primary btn-shop-now">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-md-4  d-md-block d-none ">
+          <div class="home-contain-left">
+            <div class="home-detail-right">
+              <div>
+                <h4 class="fw-bold-2">Fresh 100% ORGANIC </h4>
+                <h5 class="text-center">chợ nông sản Việt Nam</h5>
+                <button type="button" class="btn btn-primary btn-shop-right">Shop Now</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-xxl-3"></div>
+      </div>
+
+    </div>
+  </section>
+  <!--Home Section End-->
+
+  <!--Hot Deals section Start-->
+  <section class="section hot-deals-section" id="hot-deals-section">
+    <div class="container-fluid-lg">
+      <div class="title">
+        <div>
+          <h2>Deal Of The Day</h2>
+        </div>
+
+        <div><button id="product-slick-prev"
+            class="product-slick-prev glyphicon glyphicon-menu-left btn-slick btn-disable " aria-label="Previous"
+            type="button" style="display: none;"></button>
+        </div>
+        <div><button id="product-slick-next" class="product-slick-next glyphicon glyphicon-menu-right btn-slick "
+            aria-label="Next" type="button" style="display: none;"></button></div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="product-hot-deals" id="product-hot-deals">
+
+          </div>
+
+        </div>
+      </div>
+      <div aria-label="Page navigation" class="pagetion">
+        <ul class="pagination justify-content-center" id="hot-deals-pagination">
+          <!-- Các nút phân trang sẽ được thêm vào đây -->
+        </ul>
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+
+  <!--Category section Start-->
+  <section class="section category-section" id="category-section">
+    <div class="container-fluid-lg">
+      <!--<div class="row">-->
+      <div class="title">
+        <div>
+          <h2>Category Product</h2>
+        </div>
+
+        <div><button id="slick-prev" class="slick-prev glyphicon glyphicon-menu-left btn-slick btn-disable"
+            aria-label="Previous" type="button" style></button>
+        </div>
+        <div><button id="slick-next" class="slick-next glyphicon glyphicon-menu-right btn-slick " aria-label="Next"
+            type="button" style></button></div>
+      </div>
+      <div class="row">
+        <div class="col-12 category-container">
+          <div class="category-slider">
+            <div class="slick-list" id="slick-list">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Category section End-->
+
+  <!--Product section Start-->
+  <section class="section product-section" id="product-section">
+    <div class="container-fluid-lg">
+      <div class="title">
+        <div>
+          <h2>Products</h2>
+        </div>
+
+        <div><button id="product-slick-prev"
+            class="product-slick-prev glyphicon glyphicon-menu-left btn-slick btn-disable " aria-label="Previous"
+            type="button" style="display: none;"></button>
+        </div>
+        <div><button id="product-slick-next" class="product-slick-next glyphicon glyphicon-menu-right btn-slick "
+            aria-label="Next" type="button" style="display: none;"></button></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-6">
+          <div class="product-container" id="product-container">
+
+          </div>
+
+        </div>
+      </div>
+      <div aria-label="Page navigation" class="pagetion">
+        <ul class="pagination justify-content-center" id="pagination">
+          <!-- Các nút phân trang sẽ được thêm vào đây -->
+        </ul>
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+  <!--Product section End-->
+  <!--Banner Section Start-->
+  <section class="section banner-section" id="banner-section">
+    <div class="container-fluid-lg">
+      <div class="row row-fluid">
+        <div class="col-xxl-3 col-md-6">
+          <div class="banner-contain-left" style="margin-bottom: 10px;">
+            <img src="./img/banner/1.png" class="img-fluid">
+            <div class="banner-detail">
+              <div>
+                <h6 class="ls-expanded banner-color">PREMIUM</h6>
+                <h1 class="fw-bold banner-color">100% Fresh</h1>
+                <h3 class="text-content banner-color">Trái cây & Rau củ</h3>
+                <p class="d-sm-block d-none banner-color">Miễn phí vận chuyển trên tất cả các đơn đặt hàng của bạn.</p>
+                <button type="button" class="btn btn-primary btn-shop-now">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-md-6">
+          <div class="banner-contain-right">
+            <img src="./img/banner/2.png" class="img-fluid">
+            <div class="banner-detail">
+              <div>
+                <h6 class="ls-expanded">AVAILABLE</h6>
+                <h1 class="fw-bold">100% Fresh</h1>
+                <h3 class="text-content">Trái cây & Rau củ</h3>
+                <p class="d-sm-block d-none">Miễn phí vận chuyển trên tất cả các đơn đặt hàng của bạn.</p>
+                <button type="button" class="btn btn-primary btn-shop-now">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-xxl-3"></div>
+    </div>
+
+    </div>
+  </section>
+  <!--Banner Section End-->
+
+  <!--New Product section Start-->
+  <section class="section new-product-section" id="new-product-section">
+    <div class="container-fluid-lg">
+      <div class="title">
+        <div>
+          <h2>New Products</h2>
+        </div>
+
+        <div><button id="product-slick-prev"
+            class="product-slick-prev glyphicon glyphicon-menu-left btn-slick btn-disable " aria-label="Previous"
+            type="button" style="display: none;"></button>
+        </div>
+        <div><button id="product-slick-next" class="product-slick-next glyphicon glyphicon-menu-right btn-slick "
+            aria-label="Next" type="button" style="display: none;"></button></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-6">
+          <div class="product-container" id="new-product">
+
+          </div>
+
+        </div>
+      </div>
+      <div aria-label="Page navigation" class="pagetion">
+        <ul class="pagination justify-content-center" id="new-product-pagination">
+          <!-- Các nút phân trang sẽ được thêm vào đây -->
+        </ul>
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+  <!--New Product section End-->
+  <!--Banner Section Start-->
+  <section class="section banner-section" id="banner-section">
+    <div class="container-fluid-lg">
+      <div class="row row-fluid">
+        <div class="col-xxl-6 col-md-12">
+          <div class="banner-contain" style="margin-bottom: 10px;">
+            <img src="./img/banner/1.png" class="img-fluid">
+            <div class="banner-detail">
+              <div>
+                <h6 class="ls-expanded">PREMIUM</h6>
+                <h1 class="fw-bold ">100% Fresh</h1>
+                <h3 class="text-content ">Trái cây & Rau củ</h3>
+                <p class="d-sm-block d-none ">Miễn phí vận chuyển trên tất cả các đơn đặt hàng của bạn</p>
+                <button type="button" class="btn btn-primary btn-shop-now ">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3"></div>
+    </div>
+
+    </div>
+  </section>
+  <!--Banner Section End-->
+
+  <!--Hot Deals section Start-->
+  <section class="section blogs-section" id="blogs-section">
+    <div class="container-fluid-lg">
+      <div class="title">
+        <div>
+          <h2>Blogs</h2>
+        </div>
+
+        <div><button id="product-slick-prev"
+            class="product-slick-prev glyphicon glyphicon-menu-left btn-slick btn-disable " aria-label="Previous"
+            type="button" style="display: none;"></button>
+        </div>
+        <div><button id="product-slick-next" class="product-slick-next glyphicon glyphicon-menu-right btn-slick "
+            aria-label="Next" type="button" style="display: none;"></button></div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="list-blog" id="list-blog">
+
+          </div>
+
+        </div>
+      </div>
+      <div aria-label="Page navigation" class="pagetion">
+        <ul class="pagination justify-content-center" id="blog-pagination">
+          <!-- Các nút phân trang sẽ được thêm vào đây -->
+        </ul>
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+
+  <!--Banner Section Start-->
+  <section class="section banner-section" id="banner-section">
+    <div class="container-fluid-lg">
+      <div class="row row-fluid">
+        <div class="col-xxl-6 col-md-12">
+          <div class="banner-contain-email" style="margin-bottom: 10px;">
+            <img src="./img/banner/1.png" class="img-fluid">
+            <div class="banner-detail-email">
+              <div>
+                <h6 class="ls-expanded txt-center">ĐĂNG KÝ NHẬN BẢN TIN</h6>
+                <p class="txt-center d-sm-block d-none ">Miễn phí vận chuyển trên tất cả các đơn đặt hàng của bạn</p>
+                <div class="txt-email">
+                  <span><input id="email" type="email" class="form-control" name="email" placeholder="Email" style="
+                    height: 40px; width: 325px !important;"></span>
+                  <span><button type="button" class="btn btn-primary btn-shop-now ">Shop Now</button></span>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3"></div>
+    </div>
+
+    </div>
+  </section>
+  <!--Banner Section End-->
+  <!--Cart button Start-->
+  <div class="btn-card">
+    <small class="card-count" id="card-count">0</small>
+    <button class="item-btn btn text-white" id="btn-card">
+      <i class="fa fa-shopping-cart"></i>
+    </button>
+
+  </div>
+  <!--Cart button End-->
+
+  <!--Popup Cart  Start-->
+  <div class="popup-cart" id="popup-cart">
+    <div class="cart-detail" id="cart-detail">
+
+    </div>
+  </div>
+
+  <!--Popup Cart  End-->
+  <!--Popup Cart  Start-->
+  <div class="popup-icon-cart" id="popup-icon-cart">
+    <div class="icon-cart-detail" id="icon-cart-detail">
+
+    </div>
+  </div>
+
+  <!--Popup Cart  End-->
+
+  <!--Back-top button Start-->
+  <div class="back-top" id="back-top">
+    <button class="item-btn btn text-white">
+      <i class="fa fa-angle-up"></i>
+    </button>
+  </div>
+  <!--Back-top button End-->
+
+<section class="section section-footer">
+  <footer class="section-t-space">
+    <div class="container-fluid-lg">
+      <div class="service-section">
+        <div class="row g-3">
+          <div class="col-12">
+            <div class="service-contain">
+              <div class="service-box">
+                <div class="service-image">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/svg/product.svg" class="blur-up lazyloaded"
+                    alt="">
+                </div>
+                <div class="service-detail">
+                  <h5>Mọi sản phẩm tươi sống</h5>
+                </div>
+              </div>
+              <div class="service-box">
+                <div class="service-image">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/svg/delivery.svg" class="blur-up lazyloaded"
+                    alt="">
+                </div>
+                <div class="service-detail">
+                  <h5>Giao hàng miễn phí cho đơn hàng trên $ 50</h5>
+                </div>
+              </div>
+              <div class="service-box">
+                <div class="service-image">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/svg/discount.svg" class="blur-up lazyloaded"
+                    alt="">
+                </div>
+                <div class="service-detail">
+                  <h5>Giảm giá Mega hàng ngày</h5>
+                </div>
+              </div>
+              <div class="service-box">
+                <div class="service-image">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/svg/market.svg" class="blur-up lazyloaded"
+                    alt="">
+                </div>
+                <div class="service-detail">
+                  <h5>Giá tốt nhất trên thị trường</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer section-b-space section-t-space">
+        <div class="row g-md-4 g-3" style="display: flex;">
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="footer-logo">
+              <div class="theme-logo">
+                <a href="index.html">
+                  <img src="https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" class="blur-up lazyloaded"
+                    alt="">
+                </a>
+              </div>
+              <div class="footer-logo-contain">
+                <p>Chúng tôi là một quán bar thân thiện phục vụ nhiều loại cocktail, rượu vang và bia. Thanh của chúng
+                  tôi là một
+                  Nơi hoàn hảo cho một cặp vợ chồng.</p>
+                <ul class="address">
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-home">
+                      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                      <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    <a href="javascript:void(0)" _msttexthash="4615507" _msthash="331">1418 Riverwood Drive, CA 96052,
+                      Hoa Kỳ</a>
+                  </li>
+                  <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-mail">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <a href="javascript:void(0)">support@fastkart.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+            <div class="footer-title">
+              <h4>Loại</h4>
+            </div>
+            <div class="footer-contain">
+              <ul>
+                <li> <a href="shop-left-sidebar.html" class="text-content">Rau &amp; Trái cây</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Thức uống</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Thịt &amp; Hải sản</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Thực phẩm đông lạnh</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Bánh quy &amp; Đồ ăn nhẹ</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Tạp hóa &amp; Staples</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl col-lg-2 col-sm-3">
+            <div class="footer-title">
+              <h4>Liên kết hữu ích</h4>
+            </div>
+            <div class="footer-contain">
+              <ul>
+                <li><a href="index.html" class="text-content">Nhà</a></li>
+                <li><a href="shop-left-sidebar.html" class="text-content">Cửa hàng</a></li>
+                <li><a href="about-us.html" class="text-content">Về chúng tôi</a></li>
+                <li><a href="blog-list.html" class="text-content">Tin tức</a></li>
+                <li><a href="contact-us.html" class="text-content">Liên hệ với chúng tôi</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-sm-3">
+            <div class="footer-title">
+              <h4>Trung tâm trợ giúp</h4>
+            </div>
+            <div class="footer-contain">
+              <ul>
+                <li><a href="order-success.html" class="text-content">Đơn hàng của bạn</a></li>
+                <li><a href="user-dashboard.html" class="text-content">Tài khoản của bạn</a></li>
+                <li><a href="order-tracking.html" class="text-content">Theo dõi đơn hàng</a></li>
+                <li><a href="wishlist.html" class="text-content">Danh sách yêu thích của bạn</a></li>
+                <li><a href="search.html" class="text-content">Tìm kiếm</a></li>
+                <li><a href="faq.html" class="text-content" _msttexthash="22607" _msthash="352">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="footer-title">
+              <h4>Liên hệ với chúng tôi</h4>
+            </div>
+            <div class="footer-contact">
+              <ul>
+                <li>
+                  <div class="footer-number">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-phone">
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                      </path>
+                    </svg>
+                    <div class="contact-number">
+                      <h6 class="text-content">Hotline 24/7 :</h6>
+                      <h5>+91 888 104 2340</h5>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="footer-number">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-mail">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <div class="contact-number">
+                      <h6 class="text-content">Địa chỉ email :</h6>
+                      <h5>fastkart@hotmail.com</h5>
+                    </div>
+                  </div>
+                </li>
+                <li class="social-app">
+                  <h5 class="mb-2 text-content">Tải xuống ứng dụng :</h5>
+                  <ul>
+                    <li class="mb-0">
+                      <a href="https://play.google.com/store/apps" target="_blank">
+                        <img src="https://themes.pixelstrap.com/fastkart/assets/images/playstore.svg"
+                          class="blur-up lazyloaded" alt="">
+                      </a>
+                    </li>
+                    <li class="mb-0">
+                      <a href="https://www.apple.com/in/app-store/" target="_blank">
+                        <img src="https://themes.pixelstrap.com/fastkart/assets/images/appstore.svg"
+                          class="blur-up lazyloaded" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer section-small-space">
+        <div class="reserve">
+          <h6 class="text-content" style="font-size: 15px;">©2022 Fastkart Mọi quyền được bảo lưu</h6>
+        </div>
+        <div class="payment">
+          <img src="https://themes.pixelstrap.com/fastkart/assets/images/payment/1.png" class="blur-up lazyloaded"
+            alt="">
+        </div>
+        <div class="social-link">
+          <h6 class="text-content" style="font-size: 15px;">Duy trì kết nối:</h6>
+          <ul>
+            <li><a href="https://www.facebook.com/" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li><a href="https://twitter.com/" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://in.pinterest.com/" target="_blank">
+                <i class="fa fa-pinterest-p"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</section>
+  
+</body>
+
+</html>
